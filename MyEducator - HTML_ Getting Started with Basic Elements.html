@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://app.myeducator.com/reader/web/2679v/topic-web/mz5od/ -->
+<html lang="en" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.styles_overlay__CLSq- {
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 1000;
+  padding: 1.2rem;
+}
+.styles_overlayCenter__YHoO7 {
+  align-items: center;
+}
+.styles_modal__gNwvD {
+  max-width: 800px;
+  position: relative;
+  padding: 1.2rem;
+  background: #ffffff;
+  background-clip: padding-box;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+  margin: auto;
+}
+.styles_closeButton__20ID4 {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+}
+.styles_closeIcon__1QwbI {
+}
+.styles_transitionEnter__3j_-a {
+  opacity: 0.01;
+}
+.styles_transitionEnterActive___eQs7 {
+  opacity: 1;
+  transition: opacity 500ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.styles_transitionExit__1KmEf {
+  opacity: 1;
+}
+.styles_transitionExitActive__1nQXw {
+  opacity: 0.01;
+  transition: opacity 500ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+</style>
+    <title>MyEducator - HTML: Getting Started with Basic Elements</title>
+    
+    
+    <meta http-equiv="X-UA-Compatible" content="chrome=IE9">
+    <meta property="og:image" content="/static/base_app/media/logos/logo-blue-150.png">
+    <meta name="description" content="A courseware solution provider for online, university-level courses.">
+    <link rel="icon" type="image/x-icon" href="https://app.myeducator.com/static/base_app/media/logos/logo-red.png">
+
+    <script src="./MyEducator - HTML_ Getting Started with Basic Elements_files/iframe_api" id="youtube_api_script_tag"></script><script type="text/javascript" id="www-widgetapi-script" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/www-widgetapi.js" async=""></script><script type="text/javascript" async="" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/iframe_api"></script><script type="text/javascript" async="" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/analytics.js"></script><script src="./MyEducator - HTML_ Getting Started with Basic Elements_files/142088813256449" async=""></script><script async="" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/fbevents.js"></script><script type="text/javascript" async="" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/mixpanel-2-latest.min.js"></script><script async="" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/gtm.js"></script><script>var ME_CONSTANTS = {"meDialog": {"strLoadError": "An error occurred loading the dialog from the server: ", "strYes": "Yes", "strNo": "No", "strOK": "OK", "strSubmit": "Submit", "strCancel": "Cancel"}, "meLoadReplace": {"strLoadError": "An error occurred while loading data from the server: "}, "meConfirm": {"strConfirm": "Confirm", "strYes": "Yes", "strNo": "No"}, "meRedirector": {"cookieDomain": ".myeducator.com"}};</script>
+
+    
+      <link rel="stylesheet" type="text/css" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/__combined_site_code.css">
+<script src="./MyEducator - HTML_ Getting Started with Basic Elements_files/__combined_site_code.js"></script>
+<script src="./MyEducator - HTML_ Getting Started with Basic Elements_files/ckeditor.js"></script><style>.cke{visibility:hidden;}</style>
+<script src="./MyEducator - HTML_ Getting Started with Basic Elements_files/jquery.js"></script>
+
+    <script type="text/x-mathjax-config;executed=true">
+        MathJax.Hub.Config({
+          CommonHTML: { linebreaks: { automatic: true } },
+          "HTML-CSS": { linebreaks: { automatic: true } },
+                 SVG: { linebreaks: { automatic: true } }
+        });
+    </script>
+
+<script src="./MyEducator - HTML_ Getting Started with Basic Elements_files/MathJax.js"></script>
+      <link rel="stylesheet" type="text/css" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/font.css">
+    
+
+    <style type="text/css">#body_title_container{background-color:rgba(255,255,255,.85);background-image:url(/static/base_app/media/example_banner.jpg);background-repeat:no-repeat;background-size:100% 100%;background-position:right;margin:0 0 12px 0;position:relative;padding:0 0 2px 0}#body_title_container_main a{color:#004876;text-shadow:1px 1px 3px #111}#body_title_container_main{display:inline-block;font-size:1.9em;line-height:normal;font-weight:bold;color:#004876;padding:6px 30px 6px 30px;background-color:rgba(0,0,0,.7);box-shadow:0 0 6px rgba(0,0,0,.4);border-radius:0 3px 3px 0;clear:both}#body_title_container_main a{color:#004876;text-shadow:1px 1px 3px #111}#body_title_container_subtitle{font-size:1.3em;margin:2px 0 0 64px;display:block;color:#EEE;padding:6px 12px 6px 30px;background-color:rgba(0,0,0,.7);box-shadow:0 0 6px rgba(0,0,0,.4);border-radius:3px 0 0 3px;clear:both}#body_title_container_sandbox{font-size:1.4em;float:right;width:400px;color:#DD4;padding:9px 12px;background-color:rgba(0,0,0,.7);box-shadow:0 0 6px rgba(0,0,0,.4);border-radius:3px 0 0 3px}#body_title_container_sandbox_text{margin-top:12px;font-size:.6em;color:#EEE}#overlay{position:fixed;width:100%;height:100%;top:0px;left:0px;background:#000;opacity:0.5;z-index:999}</style><link data-context="3twjnzf6YLi9mQ4v62sGeE" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/web.scss.css" rel="stylesheet">
+
+    
+      <style type="text/css" media="print">
+       h1, h2, p, img, .caption { display: none; }
+      </style>
+    
+
+    <link type="text/css" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/styles.css" rel="stylesheet">
+<script type="text/javascript" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/styles-1c3c20f31217726ea0cf.js"></script>
+
+    
+    <script type="text/javascript">
+        // Prevent "flash" effect if panels are closed
+        $('html').addClass('hidden');
+        $(document).ready(function() {
+          $('html').removeClass('hidden');
+        });
+        $(function () {
+          MyEducator.startReader(
+            "3615882024481382401",
+            "2679v",
+            "Intro to IS - W25 - REESE",
+            "True",
+            "False",
+            "instructor",
+            "topic-web",
+            "mz5od",
+            "True")}
+          )
+    </script>
+
+    <script src="./MyEducator - HTML_ Getting Started with Basic Elements_files/vkbeautify.0.99.00.beta.js"></script>
+
+    
+        <style type="text/css"></style>
+        
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+      
+        <style>
+            #course {
+    background-image: /reader/resource/1944/images/BYULogo.png;
+    background-size: cover;
+    background-position: center;
+    background-color: ;
+}
+            
+
+            #myeducator_logo_container {
+                top: ;
+                left: ;
+                height: ;
+                width: 75px;
+                background-color: #;
+            }
+
+            #myeducator_logo {
+                background-image: url('/reader/resource/1944/images/BYU-Cougars.jpg');
+                background-size: contain;
+                width: 70px;
+                height: 55px;
+                margin: 0px 10px 0px 0px !important;
+            }
+
+        
+            
+            #header_navigation_container,
+            #header_navigation_container_inner {
+                background-color: #;
+                background-repeat: repeat;
+                border-color: #;
+            }
+
+            #header_navigation_container .navbar-nav>li>a:hover {
+                color: #;
+                background-color: #;
+            }
+
+            #header_navigation_container .navbar-nav>li>a:focus,
+            #header_navigation_container .navbar-nav>li.open>a {
+                color: #;
+            }
+
+            .navbar-inverse .nav > li > a:hover,
+            .navbar-inverse .nav > li > a:focus {
+                outline: none;
+            }
+        
+            
+            
+            #reader_content h1,
+            #reader_content h1.collapsible-section-container-title {
+                background-color: #;
+                color: #;
+            }
+
+            h2 {
+                color: #;
+            }
+
+            h3, h4 {
+                color: #;
+            }
+        
+            
+            .btn-primary {
+                background-color: #;
+                border-color: #;
+            }
+
+            .btn-primary:hover,
+            .btn-primary:focus,
+            .btn-primary:active,
+            .btn-primary.active {
+                background-color: #;
+                border-color: #;
+            }
+
+            .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
+                background: #;
+            }
+        
+            
+                #course {
+  background-size: cover;
+}
+            
+        </style>
+        
+
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+     })(window,document,'script','dataLayer','GTM-PQWBJ64');
+    </script>
+
+    <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:3259808,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script><script async="" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/hotjar-3259808.js"></script>
+
+    <script type="text/javascript">
+      (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+      for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
+    </script>
+
+    
+
+<script src="./MyEducator - HTML_ Getting Started with Basic Elements_files/embed(1).js"></script>
+<script>
+    customElements.whenDefined('vapp-auth').then(AuthApp => {
+        const elem = new AuthApp({
+            initial_sessionid: "usrcs65qytscwkmvob9dkmx13ki7j1xd",
+        })
+        elem.setAttribute('primary', '')
+        document.body.insertAdjacentElement('afterbegin', elem)
+    })
+</script>
+
+      <script src="./MyEducator - HTML_ Getting Started with Basic Elements_files/embed(2).js"></script>
+      <script src="./MyEducator - HTML_ Getting Started with Basic Elements_files/embed(3).js"></script>
+      <script src="./MyEducator - HTML_ Getting Started with Basic Elements_files/embed(4).js"></script>
+      <script src="./MyEducator - HTML_ Getting Started with Basic Elements_files/embed(5).js"></script>
+      <script src="./MyEducator - HTML_ Getting Started with Basic Elements_files/embed(6).js"></script>
+
+  <style data-styled="" data-styled-version="4.1.3"></style><script async="" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/modules.f98993dba31a932bc912.js" charset="utf-8"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><link rel="stylesheet" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/font(1).css"><link rel="stylesheet" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/font(2).css"><link rel="stylesheet" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/font(3).css"><link rel="stylesheet" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/font(4).css"><link rel="stylesheet" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/font(5).css"><link rel="stylesheet" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/font(6).css"><link rel="stylesheet" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/font(7).css"><link rel="stylesheet" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/font(8).css"><link rel="stylesheet" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/font(9).css"><style id="narrate-styles">
+        .narrate-highlight {
+            background-color: #F8E3A3;
+            border-radius: 2px;
+        }
+    </style><link rel="stylesheet" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/font(10).css"><link rel="stylesheet" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/font(11).css"><link rel="stylesheet" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/font(12).css"><link rel="modulepreload" as="script" crossorigin="" href="https://play.voshi.com/appstatic/aiembed/s/assets/vendor-markdown-CbyYl_L6.js"><link rel="modulepreload" as="script" crossorigin="" href="https://play.voshi.com/appstatic/aiembed/s/assets/vendor-other-C9CDs0bE.js"><link rel="modulepreload" as="script" crossorigin="" href="https://play.voshi.com/appstatic/aiembed/s/assets/vendor-base-CH894yu9.js"><link rel="modulepreload" as="script" crossorigin="" href="https://play.voshi.com/appstatic/aiembed/s/assets/vendor-intl-fwtA2ciU.js"><link rel="stylesheet" crossorigin="" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/vendor-markdown-6mFqBPb7.css"></head>
+  <body data-subdomain="app" data-new-gr-c-s-check-loaded="14.1231.0" data-gr-ext-installed="" class="vsc-initialized" data-new-gr-c-s-loaded="14.1231.0"><vapp-auth primary=""><template shadowrootmode="open"><div class="vapp-root vapp-styles" data-app="auth" data-build="stable" data-stage="play" data-platform="browser" data-standalone="0" data-iframe="0"></div><div class="vapp-modals"></div><link rel="stylesheet" href="https://play.voshi.com/appstatic/auth/s/assets/index-A2io75o3.css"><link rel="stylesheet" href="https://play.voshi.com/appstatic/auth/s/assets/app-lib--DEqmgvW.css"></template></vapp-auth><div id="MathJax_Message" style="display: none;"></div>
+
+    
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-PQWBJ64"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+
+        <script async="" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/js"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-TSWTZBKJDD');
+        </script>
+
+        <script>
+         !function(f,b,e,v,n,t,s)
+         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+           if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+           n.queue=[];t=b.createElement(e);t.async=!0;
+           t.src=v;s=b.getElementsByTagName(e)[0];
+           s.parentNode.insertBefore(t,s)}(window,document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
+         fbq('init', '142088813256449');
+         fbq('track', 'PageView');
+        </script>
+        <noscript>
+          <img height="1" width="1" src="https://www.facebook.com/tr?id=142088813256449&ev=PageView&noscript=1"/>
+        </noscript>
+    
+
+    
+	<a href="https://app.myeducator.com/reader/web/2679v/topic-web/mz5od/#bookcontent" class="SkipToMainContentLink position-absolute bg-white p-3">Skip to main content</a>
+	<a href="https://app.myeducator.com/reader/web/2679v/topic-web/mz5od/#booktools_container_inner" class="SkipToMainContentLink position-absolute bg-white p-3">Skip to book tools</a>
+
+    <header>
+      
+
+      
+        <div id="header_message_center_container" class="TopRightAlert m-3" role="log" aria-live="polite" aria-relevant="additions">
+            
+        </div>
+      
+
+      
+          
+
+
+
+    <nav id="header_navigation_container" class="navbar-inverse navbar-fixed-top position-relative-md-down m-0" role="navigation">
+
+        <div id="header_navigation_container_inner" class="position-relative">
+            <div class="navbar-header d-inline-block">
+                <div id="myeducator_logo_container" class="position-relative">
+                    <a class="navbar-brand p-0" href="https://www.myeducator.com/">
+                        <span class="sr-only">MyEducator Home Page</span>
+                        <div id="myeducator_logo" style="max-height: 50px" class="MyeducatorLogo myeducator_navbar_logo mx-2 mb-2"></div>
+                    </a>
+                </div>
+            </div>
+
+
+            <button id="mobile-menu-btn" class="navbar-toggle border-dark rounded-circle bg-white" data-toggle="collapse" data-target="#reader_navbar">
+                <span class="far fa-bars text-dark"></span>
+                <span class="sr-only">Main Menu</span>
+            </button>
+
+            <div id="reader_navbar" class="navbar-collapse collapse">
+                  
+            <div id="courseNavApp"><ul class="d-inline-block navbar-nav nav"><li class="dropdown"><a id="coursesMenu" role="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false" href="https://app.myeducator.com/reader/web/2679v/topic-web/mz5od/#"><span>Intro to IS - W25 - REESE <span class="fa-fw far fa-angle-down"></span></span></a><ul role="menu" class="dropdown-menu" aria-labelledby="coursesMenu"><li class="dropdown-header ml-0 pl-2"><span>My Courses</span></li><li class="ReaderNavItemBlue CourseNavMenuItem me-list-item pl-4" role="menuitem" tabindex="0"><a class="pl-2 d-block truncate-link-text" href="https://app.myeducator.com/reader/web/1700r/" role="menuitem"><i class="far fa-fw mr-4 color_teal fa-book"></i>BYU IS 110 Fall 2023 - Allen</a></li><li class="ReaderNavItemBlue CourseNavMenuItem me-list-item pl-4" role="menuitem" tabindex="0"><a class="pl-2 d-block truncate-link-text" href="https://app.myeducator.com/reader/web/1380ubaaaaaa/" role="menuitem"><i class="far fa-fw mr-4 color_teal fa-book"></i>FA 24 -- FIN 201 -- Larson</a></li><li class="ReaderNavItemBlue CourseNavMenuItem me-list-item pl-4" role="menuitem" tabindex="0"><a class="pl-2 d-block truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/" role="menuitem"><i class="far fa-fw mr-4 color_teal fa-book"></i>Intro to IS - W25 - REESE</a></li><li class="ReaderNavItemBlue CourseNavMenuItem me-list-item pl-4" role="menuitem" tabindex="0"><a class="pl-2 d-block truncate-link-text" href="https://app.myeducator.com/reader/web/1590awac/" role="menuitem"><i class="far fa-fw mr-4 color_teal fa-book"></i>MKTG 201 - Fall 2023 - Swenson</a></li></ul></li><li class="dropdown"><a id="navMenu" role="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false" href="https://app.myeducator.com/reader/web/2679v/topic-web/mz5od/#"><span>Chapter 21 <span class="fa-fw far fa-angle-down"></span></span></a><ul role="menu" class="dropdown-menu" aria-labelledby="navMenu"><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/" role="menuitem"><i class="fa-fw fal fa-long-arrow-right primary mt-2 mx-3" aria-hidden="true"></i>Title Page</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/u068e" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Foreword: Foreward</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/qd4vt" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 1: Concepts: Information Systems in Organizations</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/a42y9" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 2: Concepts: Artificial Intelligence</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/bx48u" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 3: Concepts: Hardware and Networking Basics</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/lr5zk" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 4: Concepts: Information Systems Security and Privacy I</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/gj2pr" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 5: Concepts: Information Systems Security and Privacy II</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/ny1xx" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 6: Database: Organizational Information</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/j70ng" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 7: Database: Entity-Relationship Diagrams</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/b46k5" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 8: Database: SQL Select Statements</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/ne1qm" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 9: Dev: Systems Development Life Cycle</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/j0757" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 10: Dev: Flowcharts and Algorithms</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/uu95y" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 11: Dev: Introduction to VBA in Excel</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/fh9lr" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 12: Dev: Objects, Navigation, and Conditionals</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/ww2qn" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 13: Dev: Loops</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/qn6x3" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 14: Dev: Batch Processing</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/j6003" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 15: Dev: String Manipulations</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/hb2mm" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 16: Analytics: Data Mining Concepts</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/b372g" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 17: Analytics: PivotTables and Charts</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/d60hl" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 18: Analytics: Descriptive Analyses with Tableau</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/n95z8" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 19: Analytics: Making Predictions with Excel</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/xv53q" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 20: Analytics: Business Optimization with Solver</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/q46pj" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 21: Web: Fundamentals of HTML</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/l735h" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 22: Web: CSS Styling</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/da57z" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 23: Web: CSS Positioning</a></li><li class="ReaderNavItemBlue CourseNavMenuItem dropdown-item" role="menuitem" tabindex="0"><a class="custom-padding-left-10px d-block full-link truncate-link-text" href="https://app.myeducator.com/reader/web/2679v/wg1pg" role="menuitem"><i class="fal fa-chevron-down mt-2 ml-4 mr-4" aria-hidden="true"></i>Chapter 24: Web: Bootstrap Themes and Live Tableau</a></li></ul></li></ul></div>
+            <script>
+            $(function() { MyEducator.startCourseNav(
+                {"course_title": "Intro to IS - W25 - REESE", "coursenum": "2679v", "books": [{"coursenum": "1700r", "icon": "fa-book", "title": "BYU IS 110 Fall 2023 - Allen", "role": "student", "status": "published"}, {"coursenum": "1380ubaaaaaa", "icon": "fa-book", "title": "FA 24 -- FIN 201 -- Larson", "role": "student", "status": "published"}, {"coursenum": "2679v", "icon": "fa-book", "title": "Intro to IS - W25 - REESE", "role": "student", "status": "published"}, {"coursenum": "1590awac", "icon": "fa-book", "title": "MKTG 201 - Fall 2023 - Swenson", "role": "student", "status": "published"}], "archivedBooks": [], "contentTitle": "Chapter 21", "contents": [{"isLocked": false, "title": "Foreword: Foreward", "id": "topic-forward", "modulesAndLinks": [{"title": "0.1: Why Do We Need Another Introduction to Information Systems Book?", "id": "u068e", "lessonsAndLinks": [], "isLocked": false}, {"title": "0.2: Book Organization and Structure", "id": "bi9vt", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 1: Concepts: Information Systems in Organizations", "id": "topic-is", "modulesAndLinks": [{"title": "1.1: Study Guide and Terms", "id": "qd4vt", "lessonsAndLinks": [], "isLocked": false}, {"title": "1.2: Understanding Information Systems", "id": "f05co", "lessonsAndLinks": [], "isLocked": false}, {"title": "1.3: Systems vs. Linear Thinking", "id": "jq4d7", "lessonsAndLinks": [], "isLocked": false}, {"title": "1.4: Business Automation", "id": "ml2tt", "lessonsAndLinks": [], "isLocked": false}, {"title": "1.5: Strategic Alignment of Business and IS", "id": "le71o", "lessonsAndLinks": [], "isLocked": false}, {"title": "1.6: Types of Information Systems", "id": "xk0t4", "lessonsAndLinks": [], "isLocked": false}, {"title": "1.7: Reading Quiz", "id": "q37fv", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 2: Concepts: Artificial Intelligence", "id": "topic-ai", "modulesAndLinks": [{"title": "2.1: Study Guide and Terms", "id": "a42y9", "lessonsAndLinks": [], "isLocked": false}, {"title": "2.2: Introduction", "id": "uc9ye", "lessonsAndLinks": [], "isLocked": false}, {"title": "2.3: The Evolution of AI", "id": "cp4pm", "lessonsAndLinks": [], "isLocked": false}, {"title": "2.4: AI Everywhere", "id": "qp11l", "lessonsAndLinks": [], "isLocked": false}, {"title": "2.5: AI in the Spotlight", "id": "n79kz", "lessonsAndLinks": [], "isLocked": false}, {"title": "2.6: Using AI in This Course", "id": "m62rf", "lessonsAndLinks": [], "isLocked": false}, {"title": "2.7: Privacy, Security, and Ethical Considerations", "id": "fo9lw", "lessonsAndLinks": [], "isLocked": false}, {"title": "2.8: Conclusion", "id": "eh9p9", "lessonsAndLinks": [], "isLocked": false}, {"title": "2.9: Reading Quiz: AI", "id": "qq5l2", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 3: Concepts: Hardware and Networking Basics", "id": "topic-hardware", "modulesAndLinks": [{"title": "3.1: Study Guide and Terms", "id": "bx48u", "lessonsAndLinks": [], "isLocked": false}, {"title": "3.2: Why Learn Hardware and Networking?", "id": "tu79e", "lessonsAndLinks": [], "isLocked": false}, {"title": "3.3: Computer Buyer\u2019s Guide", "id": "dl60q", "lessonsAndLinks": [], "isLocked": false}, {"title": "3.4: How to Upgrade Your Computer Hardware", "id": "co6z7", "lessonsAndLinks": [], "isLocked": false}, {"title": "3.5: Networking Concepts", "id": "ae60c", "lessonsAndLinks": [], "isLocked": false}, {"title": "3.6: Reading Quiz", "id": "jc6c5", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 4: Concepts: Information Systems Security and Privacy I", "id": "topic-sec-pri-I", "modulesAndLinks": [{"title": "4.1: Study Guide and Terms", "id": "lr5zk", "lessonsAndLinks": [], "isLocked": false}, {"title": "4.2: Introduction", "id": "pq0r5", "lessonsAndLinks": [], "isLocked": false}, {"title": "4.3: Who Causes Security Threats?", "id": "mf3cg", "lessonsAndLinks": [], "isLocked": false}, {"title": "4.4: CIA Triad: Protecting Yourself and Your Organization", "id": "g741l", "lessonsAndLinks": [], "isLocked": false}, {"title": "4.5: Confidentiality", "id": "lx80c", "lessonsAndLinks": [], "isLocked": false}, {"title": "4.6: Common Attacks Against Confidentiality and Their Safeguards", "id": "db2dm", "lessonsAndLinks": [], "isLocked": false}, {"title": "4.7: Reading Quiz", "id": "vn435", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 5: Concepts: Information Systems Security and Privacy II", "id": "topic-sec-pri-II", "modulesAndLinks": [{"title": "5.1: Study Guide and Terms", "id": "gj2pr", "lessonsAndLinks": [], "isLocked": false}, {"title": "5.2: Availability", "id": "xl5sr", "lessonsAndLinks": [], "isLocked": false}, {"title": "5.3: Integrity", "id": "dl5x1", "lessonsAndLinks": [], "isLocked": false}, {"title": "5.4: Onion Model\u2014Defense in Depth", "id": "xs5op", "lessonsAndLinks": [], "isLocked": false}, {"title": "5.5: Reading Quiz", "id": "g21ie", "lessonsAndLinks": [], "isLocked": false}, {"title": "5.6: Project: Systems in Organizations", "id": "qj2v0", "lessonsAndLinks": [], "isLocked": false}, {"title": "5.7: Big Quiz: Information Systems in Organizations", "id": "ij2as", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 6: Database: Organizational Information", "id": "topic-db", "modulesAndLinks": [{"title": "6.1: Study Guide and Terms", "id": "ny1xx", "lessonsAndLinks": [], "isLocked": false}, {"title": "6.2: Data as the Lifeblood of an Organization", "id": "lc4s8", "lessonsAndLinks": [], "isLocked": false}, {"title": "6.3: Types of Information and Databases", "id": "r87xt", "lessonsAndLinks": [], "isLocked": false}, {"title": "6.4: Levels and Granularities of Information", "id": "mm3rq", "lessonsAndLinks": [], "isLocked": false}, {"title": "6.5: Information Quality", "id": "gl99k", "lessonsAndLinks": [], "isLocked": false}, {"title": "6.6: Relational Databases", "id": "c77ia", "lessonsAndLinks": [], "isLocked": false}, {"title": "6.7: Quiz: Valuing and Storing Information", "id": "mk582", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 7: Database: Entity-Relationship Diagrams", "id": "topic-erd", "modulesAndLinks": [{"title": "7.1: Study Guide and Terms", "id": "j70ng", "lessonsAndLinks": [], "isLocked": false}, {"title": "7.2: Introduction", "id": "y56ne", "lessonsAndLinks": [], "isLocked": false}, {"title": "7.3: Entity-Relationship Diagramming", "id": "wo3yg", "lessonsAndLinks": [], "isLocked": false}, {"title": "7.4: Entities, Instances, and Attributes", "id": "qb4fc", "lessonsAndLinks": [], "isLocked": false}, {"title": "7.5: Relationships", "id": "xs5az", "lessonsAndLinks": [], "isLocked": false}, {"title": "7.6: Maximum versus Minimum Cardinalities", "id": "j688p", "lessonsAndLinks": [], "isLocked": false}, {"title": "7.7: Virtual versus Serialized Instances", "id": "hw7ke", "lessonsAndLinks": [], "isLocked": false}, {"title": "7.8: Attributes", "id": "qq9sx", "lessonsAndLinks": [], "isLocked": false}, {"title": "7.9: Keys", "id": "qe3ht", "lessonsAndLinks": [], "isLocked": false}, {"title": "7.10: Connecting Similar Concepts", "id": "mv5qg", "lessonsAndLinks": [], "isLocked": false}, {"title": "7.11: Practice, Practice, Practice", "id": "lj5z6", "lessonsAndLinks": [], "isLocked": false}, {"title": "7.12: ERD Practice Problems", "id": "cs14q", "lessonsAndLinks": [], "isLocked": false}, {"title": "7.13: ERD Review Quiz", "id": "nl98w", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 8: Database: SQL Select Statements", "id": "topic-SQL", "modulesAndLinks": [{"title": "8.1: Study Guide and Terms", "id": "b46k5", "lessonsAndLinks": [], "isLocked": false}, {"title": "8.2: Principles of Query Construction", "id": "i67c3", "lessonsAndLinks": [], "isLocked": false}, {"title": "8.3: SQL Basics", "id": "sn1hb", "lessonsAndLinks": [], "isLocked": false}, {"title": "8.4: Practice SQL Basics", "id": "dg95q", "lessonsAndLinks": [], "isLocked": false}, {"title": "8.5: DISTINCT, LIMIT, and IN", "id": "sj2c0", "lessonsAndLinks": [], "isLocked": false}, {"title": "8.6: Project: SQL", "id": "sx4zo", "lessonsAndLinks": [], "isLocked": false}, {"title": "8.7: Big Quiz: Data Storage and Extraction", "id": "t66za", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 9: Dev: Systems Development Life Cycle", "id": "topic-sdlc", "modulesAndLinks": [{"title": "9.1: Study Guide and Terms", "id": "ne1qm", "lessonsAndLinks": [], "isLocked": false}, {"title": "9.2: Introduction to SDLC Phases", "id": "m02to", "lessonsAndLinks": [], "isLocked": false}, {"title": "9.3: SDLC Phases", "id": "s08ab", "lessonsAndLinks": [], "isLocked": false}, {"title": "9.4: Make/Build/Buy Decision", "id": "ah6lz", "lessonsAndLinks": [], "isLocked": false}, {"title": "9.5: SDLC Methodologies", "id": "dt0mq", "lessonsAndLinks": [], "isLocked": false}, {"title": "9.6: Quality Constraints", "id": "xa7ex", "lessonsAndLinks": [], "isLocked": false}, {"title": "9.7: Putting It All Together", "id": "ac9u1", "lessonsAndLinks": [], "isLocked": false}, {"title": "9.8: Reading Quiz", "id": "qc6tl", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 10: Dev: Flowcharts and Algorithms", "id": "topic-flowchart", "modulesAndLinks": [{"title": "10.1: Study Guide and Terms", "id": "j0757", "lessonsAndLinks": [], "isLocked": false}, {"title": "10.2: Video Walk-Throughs", "id": "y00hg", "lessonsAndLinks": [], "isLocked": false}, {"title": "10.3: Flowchart Principles and Practice", "id": "b48ja", "lessonsAndLinks": [], "isLocked": false}, {"title": "10.4: Principles of Flowchart Construction\u2014Symbols Used in Flowcharts", "id": "dz3a1", "lessonsAndLinks": [], "isLocked": false}, {"title": "10.5: Basic Guidelines for Flowcharting", "id": "db2p6", "lessonsAndLinks": [], "isLocked": false}, {"title": "10.6: Assignments Versus Equalities", "id": "yz9ji", "lessonsAndLinks": [], "isLocked": false}, {"title": "10.7: Variable Names and Variable Legends", "id": "vz3s2", "lessonsAndLinks": [], "isLocked": false}, {"title": "10.8: Logical Flow Control Structures", "id": "fb4ko", "lessonsAndLinks": [], "isLocked": false}, {"title": "10.9: Selection (Decision) Structures", "id": "l975m", "lessonsAndLinks": [], "isLocked": false}, {"title": "10.10: Repetition (Loop) Structures", "id": "ha48g", "lessonsAndLinks": [], "isLocked": false}, {"title": "10.11: Conventions for Inputs and Outputs", "id": "t22op", "lessonsAndLinks": [], "isLocked": false}, {"title": "10.12: Suggestions for the Flowcharting Process", "id": "q294l", "lessonsAndLinks": [], "isLocked": false}, {"title": "10.13: Determine the Correct Loop Termination Condition", "id": "el5if", "lessonsAndLinks": [], "isLocked": false}, {"title": "10.14: Order of Operations", "id": "qq3ly", "lessonsAndLinks": [], "isLocked": false}, {"title": "10.15: Flowcharts in Practice", "id": "wz9cb", "lessonsAndLinks": [], "isLocked": false}, {"title": "10.16: Reading Quiz", "id": "ct18a", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 11: Dev: Introduction to VBA in Excel", "id": "topic-vba-intro", "modulesAndLinks": [{"title": "11.1: Study Guide and Terms", "id": "uu95y", "lessonsAndLinks": [], "isLocked": false}, {"title": "11.2: VBA and Macros", "id": "mz5md", "lessonsAndLinks": [], "isLocked": false}, {"title": "11.3: Using the Excel Macro Recorder", "id": "vw4i0", "lessonsAndLinks": [], "isLocked": false}, {"title": "11.4: Spreadsheet Buttons", "id": "zk23v", "lessonsAndLinks": [], "isLocked": false}, {"title": "11.5: Macro Security", "id": "hn0df", "lessonsAndLinks": [], "isLocked": false}, {"title": "11.6: Program Comments", "id": "pv6zr", "lessonsAndLinks": [], "isLocked": false}, {"title": "11.7: VBA Quick Reference", "id": "yl5jp", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 12: Dev: Objects, Navigation, and Conditionals", "id": "topic-objects", "modulesAndLinks": [{"title": "12.1: Study Guide and Terms", "id": "fh9lr", "lessonsAndLinks": [], "isLocked": false}, {"title": "12.2: Video Tutorials", "id": "td3lp", "lessonsAndLinks": [], "isLocked": false}, {"title": "12.3: Objects, Methods, and Properties", "id": "u70ql", "lessonsAndLinks": [], "isLocked": false}, {"title": "12.4: Navigation Within Worksheets in VBA", "id": "xw199", "lessonsAndLinks": [], "isLocked": false}, {"title": "12.5: VBA Conditionals", "id": "te42f", "lessonsAndLinks": [], "isLocked": false}, {"title": "12.6: Custom Functions in Excel", "id": "fi6jn", "lessonsAndLinks": [], "isLocked": false}, {"title": "12.7: Navigation HW", "id": "cy5gq", "lessonsAndLinks": [], "isLocked": false}, {"title": "12.8: Conditionals HW", "id": "y200j", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 13: Dev: Loops", "id": "topic-loops", "modulesAndLinks": [{"title": "13.1: Study Guide and Terms", "id": "ww2qn", "lessonsAndLinks": [], "isLocked": false}, {"title": "13.2: Loops", "id": "ep79v", "lessonsAndLinks": [], "isLocked": false}, {"title": "13.3: Infinite Loop (Not Recommended)", "id": "mv1nm", "lessonsAndLinks": [], "isLocked": false}, {"title": "13.4: Loops That Terminate Automatically", "id": "fr93q", "lessonsAndLinks": [], "isLocked": false}, {"title": "13.5: Nested Loops", "id": "n82ag", "lessonsAndLinks": [], "isLocked": false}, {"title": "13.6: Loop Videos", "id": "yk8aq", "lessonsAndLinks": [], "isLocked": false}, {"title": "13.7: Homework", "id": "q12lh", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 14: Dev: Batch Processing", "id": "topic-batch", "modulesAndLinks": [{"title": "14.1: Study Guide and Terms", "id": "qn6x3", "lessonsAndLinks": [], "isLocked": false}, {"title": "14.2: Batch Processing", "id": "rh8jf", "lessonsAndLinks": [], "isLocked": false}, {"title": "14.3: Advanced Batch Processing", "id": "rh8kw", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 15: Dev: String Manipulations", "id": "topic-string", "modulesAndLinks": [{"title": "15.1: Study Guide and Terms", "id": "j6003", "lessonsAndLinks": [], "isLocked": false}, {"title": "15.2: String Manipulations", "id": "t59gc", "lessonsAndLinks": [], "isLocked": false}, {"title": "15.3: Project: Programming with VBA", "id": "bh8qo", "lessonsAndLinks": [], "isLocked": false}, {"title": "15.4: Big Quiz: Programming", "id": "di0m4", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 16: Analytics: Data Mining Concepts", "id": "topic-BI", "modulesAndLinks": [{"title": "16.1: Study Guide and Terms", "id": "hb2mm", "lessonsAndLinks": [], "isLocked": false}, {"title": "16.2: Cause and Effect", "id": "ou3w8", "lessonsAndLinks": [], "isLocked": false}, {"title": "16.3: Terminology", "id": "sq3dr", "lessonsAndLinks": [], "isLocked": false}, {"title": "16.4: Data Analytics Technology Stack", "id": "mm6v3", "lessonsAndLinks": [], "isLocked": false}, {"title": "16.5: Good Measures", "id": "ss88l", "lessonsAndLinks": [], "isLocked": false}, {"title": "16.6: Netflix Prize and Kaggle", "id": "gx8yr", "lessonsAndLinks": [], "isLocked": false}, {"title": "16.7: Machine Learning Examples", "id": "y48j3", "lessonsAndLinks": [], "isLocked": false}, {"title": "16.8: Summary and Reading Quiz", "id": "t25og", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 17: Analytics: PivotTables and Charts", "id": "topic-pivot", "modulesAndLinks": [{"title": "17.1: Study Guide and Terms", "id": "b372g", "lessonsAndLinks": [], "isLocked": false}, {"title": "17.2: PivotTables and Charts in Excel", "id": "e77k1", "lessonsAndLinks": [], "isLocked": false}, {"title": "17.3: PivotTables HW", "id": "dp3ps", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 18: Analytics: Descriptive Analyses with Tableau", "id": "topic-tableau", "modulesAndLinks": [{"title": "18.1: Study Guide and Terms", "id": "d60hl", "lessonsAndLinks": [], "isLocked": false}, {"title": "18.2: Data Visualization with Tableau", "id": "hi21m", "lessonsAndLinks": [], "isLocked": false}, {"title": "18.3: Global Superstore Case", "id": "mx2a3", "lessonsAndLinks": [], "isLocked": false}, {"title": "18.4: KickStarter Case", "id": "rz8td", "lessonsAndLinks": [], "isLocked": false}, {"title": "18.5: Connecting the Dots", "id": "op75g", "lessonsAndLinks": [], "isLocked": false}, {"title": "18.6: Project: Data Viz with Tableau", "id": "vp1gg", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 19: Analytics: Making Predictions with Excel", "id": "topic-predict", "modulesAndLinks": [{"title": "19.1: Study Guide and Terms", "id": "n95z8", "lessonsAndLinks": [], "isLocked": false}, {"title": "19.2: Hypothesis Testing", "id": "s16jj", "lessonsAndLinks": [], "isLocked": false}, {"title": "19.3: Understanding the Relationships Among Variables", "id": "w58td", "lessonsAndLinks": [], "isLocked": false}, {"title": "19.4: Relationships Between Two Variables", "id": "v081w", "lessonsAndLinks": [], "isLocked": false}, {"title": "19.5: Multivariate Statistics", "id": "h28sa", "lessonsAndLinks": [], "isLocked": false}, {"title": "19.6: Practice", "id": "jf4zb", "lessonsAndLinks": [], "isLocked": false}, {"title": "19.7: Homework", "id": "pr03z", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 20: Analytics: Business Optimization with Solver", "id": "topic-solver", "modulesAndLinks": [{"title": "20.1: Study Guide and Terms", "id": "xv53q", "lessonsAndLinks": [], "isLocked": false}, {"title": "20.2: Regression-Based versus Optimization-Based Prediction", "id": "lw495", "lessonsAndLinks": [], "isLocked": false}, {"title": "20.3: Linear Programming", "id": "xg9uv", "lessonsAndLinks": [], "isLocked": false}, {"title": "20.4: Linear Programming Models", "id": "ej8q3", "lessonsAndLinks": [], "isLocked": false}, {"title": "20.5: Solver Video Tutorial", "id": "vk4g3", "lessonsAndLinks": [], "isLocked": false}, {"title": "20.6: Solving Integer Constraint Errors", "id": "cc50z", "lessonsAndLinks": [], "isLocked": false}, {"title": "20.7: Solver Practice", "id": "i84ch", "lessonsAndLinks": [], "isLocked": false}, {"title": "20.8: \n                Reading Quiz\n            ", "id": "c14g0", "lessonsAndLinks": [], "isLocked": false}, {"title": "20.9: Big Quiz: BI, Analytics and Visualization", "id": "cx27u", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 21: Web: Fundamentals of HTML", "id": "topic-web", "modulesAndLinks": [{"title": "21.1: Study Guide and Terms", "id": "q46pj", "lessonsAndLinks": [], "isLocked": false}, {"title": "21.2: Why HTML/CSS?", "id": "ef86y", "lessonsAndLinks": [], "isLocked": false}, {"title": "21.3: HTML: Getting Started with Basic Elements", "id": "mz5od", "lessonsAndLinks": [], "isLocked": false}, {"title": "21.4: Optional: Get Extra Practice with HTML/CSS", "id": "kr6wx", "lessonsAndLinks": [], "isLocked": false}, {"title": "21.5: Homework", "id": "ji9tw", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 22: Web: CSS Styling", "id": "topic-css1", "modulesAndLinks": [{"title": "22.1: Study Guide and Terms", "id": "l735h", "lessonsAndLinks": [], "isLocked": false}, {"title": "22.2: Introduction to Cascading Styling Sheets", "id": "gj1ih", "lessonsAndLinks": [], "isLocked": false}, {"title": "22.3: Optional: Codecademy.com", "id": "f91wd", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 23: Web: CSS Positioning", "id": "topic-css2", "modulesAndLinks": [{"title": "23.1: Study Guide and Terms", "id": "da57z", "lessonsAndLinks": [], "isLocked": false}, {"title": "23.2: CSS Positioning", "id": "cp2y1", "lessonsAndLinks": [], "isLocked": false}, {"title": "23.3: Optional: Codecademy.com", "id": "hi982", "lessonsAndLinks": [], "isLocked": false}, {"title": "23.4: Web Walkthrough Homework", "id": "ws0f7", "lessonsAndLinks": [], "isLocked": false}]}, {"isLocked": false, "title": "Chapter 24: Web: Bootstrap Themes and Live Tableau", "id": "topic-bootstrap", "modulesAndLinks": [{"title": "24.1: Study Guide and Terms", "id": "wg1pg", "lessonsAndLinks": [], "isLocked": false}, {"title": "24.2: Going Forward", "id": "dp0dh", "lessonsAndLinks": [], "isLocked": false}, {"title": "24.3: Implementing Bootstrap Themes", "id": "js3qf", "lessonsAndLinks": [], "isLocked": false}, {"title": "24.4: Adding Live Tableau Dashboards to a Web Page", "id": "pa5zz", "lessonsAndLinks": [], "isLocked": false}, {"title": "24.5: Put It Online!", "id": "topic-web-project", "lessonsAndLinks": [], "isLocked": false}, {"title": "24.6: Project: Web Development", "id": "p50x1", "lessonsAndLinks": [], "isLocked": false}, {"title": "24.7: Big Quiz: Web Development", "id": "hu9qp", "lessonsAndLinks": [], "isLocked": false}]}]}
+            )})
+            </script>
+            
+                  <ul id="navigation_list_right" class="navbar-right nav navbar-nav" role="menubar"><li id="course_menu" class="dropdown me-list-item" role="menuitem"><a aria-haspopup="true" aria-expanded="false" class="dropdown-toggle menulink" data-toggle="dropdown" role="button" tabindex="0"><span class="truncate text-left m-0">Course <span class="fa-fw far fa-angle-down"></span></span></a><ul class="dropdown-menu" role="menu"><li class="dropdown-header" role="menuitem"><a tabindex="0" class="menulink"><span class="truncate text-left m-0">Learning</span></a></li><li class="me-list-item" role="menuitem"><a href="https://app.myeducator.com/course/progress/2679v/3270146246025117697/root/" tabindex="0" class="menulink"><span class="truncate text-left m-0"><div class="far fa-fw mr-2 color_teal fa-tachometer-alt"></div> Progress</span></a></li><li class="dropdown-header" role="menuitem"><a tabindex="0" class="menulink"><span class="truncate text-left m-0">Course</span></a></li><li class="me-list-item" role="menuitem"><a href="https://app.myeducator.com/course/activities/2679v/" tabindex="0" class="menulink"><span class="truncate text-left m-0"><div class="far fa-fw mr-2 color_teal fa-file-alt"></div> Assessments</span></a></li><li class="me-list-item" role="menuitem"><a href="https://app.myeducator.com/course/materials/2679v/" tabindex="0" class="menulink"><span class="truncate text-left m-0"><div class="far fa-fw mr-2 color_teal fa-cube"></div> Materials</span></a></li></ul></li><li id="account_menu" class="dropdown me-list-item" role="menuitem"><a aria-haspopup="true" aria-expanded="false" class="dropdown-toggle menulink" data-toggle="dropdown" role="button" tabindex="0"><span class="truncate text-left m-0">Matthew Vaughn <span class="fa-fw far fa-angle-down"></span></span></a><ul class="dropdown-menu" role="menu"><li class="dropdown-header" role="menuitem"><a tabindex="0" class="menulink"><span class="truncate text-left m-0">Help</span></a></li><li id="contact_menu_button" class="me-list-item" role="menuitem"><a tabindex="0" class="menulink"><span class="truncate text-left m-0"><div class="far fa-fw mr-2 color_teal fa-envelope"></div> Contact Us</span></a></li><li class="dropdown-header" role="menuitem"><a tabindex="0" class="menulink"><span class="truncate text-left m-0">matthvaughn1@gmail.com</span></a></li><li class="me-list-item" role="menuitem"><a href="https://app.myeducator.com/account/name/2679v/" tabindex="0" class="menulink"><span class="truncate text-left m-0"><div class="far fa-fw mr-2 color_teal fa-user"></div> My Account</span></a></li><li class="me-list-item" role="menuitem"><a href="https://app.myeducator.com/account/logout/" tabindex="0" class="menulink"><span class="truncate text-left m-0"><div class="far fa-fw mr-2 color_teal fa-sign-out"></div> Logout</span></a></li></ul></li></ul>
+
+
+            </div><!-- reader_navbar -->
+        </div><!-- header_navigation_container_inner -->
+
+
+
+    </nav>
+
+
+
+
+<script>DMP_CONTEXT.set({"id":"3twjoAKV7FwWxDxZw7z4wU","version":"5.11.2","templates":["base_app/base_ajax_template","base_app/navigation.menu"],"app":"reader","page":"web","log":false,"values":{"id":"3twjoAKV7FwWxDxZw7z4wU"}});</script><script type="text/javascript">$(function(){$('#header_navigation_container').off('reload_navigation_bar').on('reload_navigation_bar',function(){$.ajax({url:'/base_app/navigation.navigation_bar/2679v/',dataType:'html',success:function(data){$('#header_navigation_container').replaceWith(data);},});});$('#contact_menu_button').click(function(){$.meDialog.open2({url:'/base_app/navigation.contact_us/2679v/',id:'contact_dialog',width:'600px',title:'Contact Us'});});});</script>
+
+      
+    </header>
+
+    
+    <main id="reader_layout">
+        <section id="left_content" role="navigation" aria-label="chapter outline" class="d-none" aria-expanded="false">
+          <div id="reader_navigation"><div><div></div></div></div></section><!-- left_content -->
+
+        <section id="reader_content" class="" role="main" aria-label="book reader">
+                <nav>
+                    <a href="https://app.myeducator.com/reader/web/2679v/topic-web/ef86y/" class="navigation_arrow_left NavigationArrow_Left-closed" alt="Navigate to previous page">
+                      <span class="sr-only">Previous Page</span>
+                      <div id="navigation_arrow_left_icon" class="nav_icon far fa-arrow-circle-left"></div>
+                    </a>
+                    <a href="https://app.myeducator.com/reader/web/2679v/topic-web/kr6wx/" class="navigation_arrow_right NavigationArrow_Right-closed" alt="Navigate to next page">
+                      <span class="sr-only">Next Page</span>
+                      <div id="navigation_arrow_right_icon" class="nav_icon far fa-arrow-circle-right"></div>
+                    </a>
+                </nav>
+
+                
+
+                <div id="leftToolbarButton"><div><div id="left_panel"><button type="button" class="collapse_bar_left resize-e" aria-label="Collapse or expand the left sidebar" aria-controls="left_content"><div class="fas fa-ellipsis-v"></div></button></div></div></div>
+
+                <div id="bookcontent" class="mt-navbar" style="font-size: 100%;" data-original-title="" title="">
+                    <div id="section_mz5od" class="h1_sectioncontainer" data-id="mz5od"><h1 id="mz5od" class="sectiontitle"><span class="section_label">21.3</span> HTML: Getting Started with Basic Elements</h1><vapp-aiembed style="margin: 0 6px; padding: 0 2%; width: 100%" coursenum="2679v" button-title="[&quot;Summarize Section&quot;, &quot;Practice Quiz&quot;, &quot;Study Guide&quot;]" instructions="[&quot;Please summarize this section. Keep it organized with markdown and easy to read and understand.&quot;, &quot;Based on this section content, create a practice quiz with questions that test my understanding of the key concepts. Include answers after each question. Have all of the questions group together first, and then the answers grouped together below to make it easier for the student to practice without seeing the answers, but still have access to them if needed.&quot;, &quot;Create a comprehensive study guide for this section that highlights key concepts, definitions, and important points to remember.&quot;]" chat-enabled="true" ai-response-type="[&quot;summary&quot;, &quot;quiz&quot;, &quot;studyguide&quot;]" pageid="mz5od"><template shadowrootmode="open"><div class="vapp-root vapp-styles" data-app="aiembed" data-build="stable" data-stage="play" data-platform="browser" data-standalone="0" data-iframe="0"><div class="ai-embed "><div class="ai-embed-buttons"><button class="ai-embed-button   "><div class="button-content"><div class="icon-wrapper"><i class="icon fa-fw fa-sparkles fas sparkle-icon "></i></div><span class="text-wrapper">Summarize Section</span></div><div class="success-slide"></div></button><button class="ai-embed-button   new-feature-highlight"><div class="button-content"><div class="icon-wrapper"><i class="icon fa-fw fa-sparkles fas sparkle-icon new-feature-pulse"></i></div><span class="text-wrapper">Practice Quiz</span></div><div class="success-slide"></div></button><button class="ai-embed-button   "><div class="button-content"><div class="icon-wrapper"><i class="icon fa-fw fa-sparkles fas sparkle-icon "></i></div><span class="text-wrapper">Study Guide</span></div><div class="success-slide"></div></button></div></div></div><div class="vapp-modals"><div class="vapp-modal-container"></div><div class="toast-container"></div></div><link rel="stylesheet" href="https://play.voshi.com/appstatic/aiembed/s/assets/index-DZ4xixzl.css"><link rel="stylesheet" href="https://play.voshi.com/appstatic/aiembed/s/assets/app-lib-D7xr0sc9.css"><link rel="stylesheet" href="./MyEducator - HTML_ Getting Started with Basic Elements_files/vendor-markdown-6mFqBPb7.css"><link rel="stylesheet" href="https://play.voshi.com/appstatic/aiembed/s/assets/vendor-codetools-54DrP_uy.css"></template></vapp-aiembed><div class="sectioncontent h1_sectioncontent">
+            
+        
+            <p class="para" id="d8750">Follow along with the videos below for an introduction to basic HTML structure and elements. Some students have reported the audio to be quieter in these videos. If this is the case for you, then we recommend you use headphones or earphones, rather than just your computer speakers.</p>
+            
+            <div style="margin-left: auto; margin-right: auto;" align="center" class="figure-container" id="wz1s0"><div class="figure-no-box informalfigure">
+                
+                
+                    
+                        <div role="youtube" {http:="" www.bookeducator.com="" textbook}duration="648" textbook}name="HTML: Getting started in an editor" style="position:relative; max-width:100%; width:450px; height:253.125px;" class="figure-video" id="e467l">
+            <iframe src="./MyEducator - HTML_ Getting Started with Basic Elements_files/AGe1THpKLLY.html" loading="lazy" id="AGe1THpKLLY" width="450px" height="253.125px" data-youtube-player-guid="g3347704335c82001x1" data-youtube-id="AGe1THpKLLY" data-video-player="youtube" style="max-width: 100%;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-gtm-yt-inspected-8="true" title="HTML: Getting Started in an Editor">
+            </iframe>
+            </div>
+                    
+                <div class="figurecaption"></div>
+            </div><div class="caption" style="font-size: 16px;">HTML: Getting Started in an Editor and First Page</div></div><script>$(function(){$('#wz1s0').powerTimer({sleepAfter:200,stopAfer:2000,func:function(){var maxwidth=0;$(this).children().not('.caption').each(function(){maxwidth=Math.max(maxwidth,$(this).width());});if(maxwidth>0){$(this).find('.caption').css({'max-width':$(this).closest('.informalfigure').width(),'font-size':'16px'});return false;}},});});</script>
+            
+            <div style="margin-left: auto; margin-right: auto;" align="center" class="figure-container" id="p30l4"><div class="figure-no-box informalfigure">
+                
+                
+                    
+                        <div role="youtube" {http:="" www.bookeducator.com="" textbook}duration="345" textbook}name="HTML: html, head, body, title, h1" style="position:relative; max-width:100%; width:450px; height:253.125px;" class="figure-video" id="eo77a">
+            <iframe src="./MyEducator - HTML_ Getting Started with Basic Elements_files/kCieDGBll8Q.html" loading="lazy" id="kCieDGBll8Q" width="450px" height="253.125px" data-youtube-player-guid="g3347704335c82001x2" data-youtube-id="kCieDGBll8Q" data-video-player="youtube" style="max-width: 100%;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-gtm-yt-inspected-8="true" title="HTML: Html, Head, Title, Body, H1">
+            </iframe>
+            </div>
+                    
+                <div class="figurecaption"></div>
+            </div><div class="caption" style="font-size: 16px;">HTML: html, head, body, title, h1</div></div><script>$(function(){$('#p30l4').powerTimer({sleepAfter:200,stopAfer:2000,func:function(){var maxwidth=0;$(this).children().not('.caption').each(function(){maxwidth=Math.max(maxwidth,$(this).width());});if(maxwidth>0){$(this).find('.caption').css({'max-width':$(this).closest('.informalfigure').width(),'font-size':'16px'});return false;}},});});</script>
+            
+            <div style="margin-left: auto; margin-right: auto;" align="center" class="figure-container" id="v98fq"><div class="figure-no-box informalfigure">
+                
+                
+                    
+                        <div role="youtube" {http:="" www.bookeducator.com="" textbook}duration="263" textbook}name="HTML: Validating code to HTML5 standards at validator.w3.org" style="position:relative; max-width:100%; width:450px; height:253.125px;" class="figure-video" id="kx41w">
+            <iframe src="./MyEducator - HTML_ Getting Started with Basic Elements_files/_VBCmYL_Iew.html" loading="lazy" id="_VBCmYL_Iew" width="450px" height="253.125px" data-youtube-player-guid="g3347704335c82001x3" data-youtube-id="_VBCmYL_Iew" data-video-player="youtube" style="max-width: 100%;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-gtm-yt-inspected-8="true" title="HTML: Validating Code to HTML 5 Standards at Validator.w3.org">
+            </iframe>
+            </div>
+                    
+                <div class="figurecaption"></div>
+            </div><div class="caption" style="font-size: 16px;">HTML: Validating Code to HTML5 Standards at Validator.w3.org</div></div><script>$(function(){$('#v98fq').powerTimer({sleepAfter:200,stopAfer:2000,func:function(){var maxwidth=0;$(this).children().not('.caption').each(function(){maxwidth=Math.max(maxwidth,$(this).width());});if(maxwidth>0){$(this).find('.caption').css({'max-width':$(this).closest('.informalfigure').width(),'font-size':'16px'});return false;}},});});</script>
+            
+            <div style="margin-left: auto; margin-right: auto;" align="center" class="figure-container" id="x09u2"><div class="figure-no-box informalfigure">
+                
+                
+                    
+                        <div role="youtube" {http:="" www.bookeducator.com="" textbook}duration="346" textbook}name="HTML: br, nesting, blank space, child elements" style="position:relative; max-width:100%; width:450px; height:253.125px;" class="figure-video" id="vl9zo">
+            <iframe src="./MyEducator - HTML_ Getting Started with Basic Elements_files/2OyM0LRA-n0.html" loading="lazy" id="2OyM0LRA-n0" width="450px" height="253.125px" data-youtube-player-guid="g3347704335c82001x4" data-youtube-id="2OyM0LRA-n0" data-video-player="youtube" style="max-width: 100%;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-gtm-yt-inspected-8="true" title="HTML: Br, Nesting, Blank Space, Child Elements">
+            </iframe>
+            </div>
+                    
+                <div class="figurecaption"></div>
+            </div><div class="caption" style="font-size: 16px;">HTML: br, nesting, blank space, child elements</div></div><script>$(function(){$('#x09u2').powerTimer({sleepAfter:200,stopAfer:2000,func:function(){var maxwidth=0;$(this).children().not('.caption').each(function(){maxwidth=Math.max(maxwidth,$(this).width());});if(maxwidth>0){$(this).find('.caption').css({'max-width':$(this).closest('.informalfigure').width(),'font-size':'16px'});return false;}},});});</script>
+
+            <div style="margin-left: auto; margin-right: auto;" align="center" class="figure-container" id="lb4de"><div class="figure-no-box informalfigure">
+                
+                
+                    
+                        <div role="youtube" {http:="" www.bookeducator.com="" textbook}duration="844" textbook}name="HTML: img, attributes, src, height, width, alt" style="position:relative; max-width:100%; width:450px; height:253.125px;" class="figure-video" id="jz0j0">
+            <iframe src="./MyEducator - HTML_ Getting Started with Basic Elements_files/UViV6JcLFAk.html" loading="lazy" id="UViV6JcLFAk" width="450px" height="253.125px" data-youtube-player-guid="g3347704335c82001x5" data-youtube-id="UViV6JcLFAk" data-video-player="youtube" style="max-width: 100%;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-gtm-yt-inspected-8="true" title="HTML: Img, Attributes, Src, Height, Width, Alt, P">
+            </iframe>
+            </div>
+                    
+                <div class="figurecaption"></div>
+            </div><div class="caption" style="font-size: 16px;">HTML: img, attributes, src, height, width, alt</div></div><script>$(function(){$('#lb4de').powerTimer({sleepAfter:200,stopAfer:2000,func:function(){var maxwidth=0;$(this).children().not('.caption').each(function(){maxwidth=Math.max(maxwidth,$(this).width());});if(maxwidth>0){$(this).find('.caption').css({'max-width':$(this).closest('.informalfigure').width(),'font-size':'16px'});return false;}},});});</script>
+            
+            <div style="margin-left: auto; margin-right: auto;" align="center" class="figure-container" id="yg1uy"><div class="figure-no-box informalfigure">
+                
+                
+                    
+                        <div role="youtube" {http:="" www.bookeducator.com="" textbook}duration="619" textbook}name="HTML: ol, ul, li, lists, unordered, ordered, listitem" style="position:relative; max-width:100%; width:450px; height:253.125px;" class="figure-video" id="i65ab">
+            <iframe src="./MyEducator - HTML_ Getting Started with Basic Elements_files/aDnmh-sMDv0.html" loading="lazy" id="aDnmh-sMDv0" width="450px" height="253.125px" data-youtube-player-guid="g3347704335c82001x6" data-youtube-id="aDnmh-sMDv0" data-video-player="youtube" style="max-width: 100%;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-gtm-yt-inspected-8="true" title="HTML: Ol, Ul, Li, Unordered, Ordered, Listitem">
+            </iframe>
+            </div>
+                    
+                <div class="figurecaption"></div>
+            </div><div class="caption" style="font-size: 16px;">HTML: ol, ul, li, lists, unordered, ordered, listitem</div></div><script>$(function(){$('#yg1uy').powerTimer({sleepAfter:200,stopAfer:2000,func:function(){var maxwidth=0;$(this).children().not('.caption').each(function(){maxwidth=Math.max(maxwidth,$(this).width());});if(maxwidth>0){$(this).find('.caption').css({'max-width':$(this).closest('.informalfigure').width(),'font-size':'16px'});return false;}},});});</script>
+            
+            <div style="margin-left: auto; margin-right: auto;" align="center" class="figure-container" id="mw8yq"><div class="figure-no-box informalfigure">
+                
+                
+                    
+                        <div role="youtube" {http:="" www.bookeducator.com="" textbook}duration="921" textbook}name="HTML: a, anchor, link, href, title" style="position:relative; max-width:100%; width:450px; height:253.125px;" class="figure-video" id="xq1hg">
+            <iframe src="./MyEducator - HTML_ Getting Started with Basic Elements_files/avcmrtweGx8.html" loading="lazy" id="avcmrtweGx8" width="450px" height="253.125px" data-youtube-player-guid="g3347704335c82001x7" data-youtube-id="avcmrtweGx8" data-video-player="youtube" style="max-width: 100%;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-gtm-yt-inspected-8="true" title="HTML: A, Anchor, Href, Target, Title, Link">
+            </iframe>
+            </div>
+                    
+                <div class="figurecaption"></div>
+            </div><div class="caption" style="font-size: 16px;">HTML: a, anchor, link, href, title</div></div><script>$(function(){$('#mw8yq').powerTimer({sleepAfter:200,stopAfer:2000,func:function(){var maxwidth=0;$(this).children().not('.caption').each(function(){maxwidth=Math.max(maxwidth,$(this).width());});if(maxwidth>0){$(this).find('.caption').css({'max-width':$(this).closest('.informalfigure').width(),'font-size':'16px'});return false;}},});});</script>
+            
+            <div style="margin-left: auto; margin-right: auto;" align="center" class="figure-container" id="f11xg"><div class="figure-no-box informalfigure">
+                
+                
+                    
+                        <div role="youtube" {http:="" www.bookeducator.com="" textbook}duration="416" textbook}name="HTML: on-page anchors and links" style="position:relative; max-width:100%; width:450px; height:253.125px;" class="figure-video" id="y23dc">
+            <iframe src="./MyEducator - HTML_ Getting Started with Basic Elements_files/7gs0drhrR-U.html" loading="lazy" id="7gs0drhrR-U" width="450px" height="253.125px" data-youtube-player-guid="g3347704335c82001x8" data-youtube-id="7gs0drhrR-U" data-video-player="youtube" style="max-width: 100%;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-gtm-yt-inspected-8="true" title="HTML: On-Page Anchors and Links">
+            </iframe>
+            </div>
+                    
+                <div class="figurecaption"></div>
+            </div><div class="caption" style="font-size: 16px;">HTML: on-page anchors and links</div></div><script>$(function(){$('#f11xg').powerTimer({sleepAfter:200,stopAfer:2000,func:function(){var maxwidth=0;$(this).children().not('.caption').each(function(){maxwidth=Math.max(maxwidth,$(this).width());});if(maxwidth>0){$(this).find('.caption').css({'max-width':$(this).closest('.informalfigure').width(),'font-size':'16px'});return false;}},});});</script>
+            
+            <div style="margin-left: auto; margin-right: auto;" align="center" class="figure-container" id="qm5tf"><div class="figure-no-box informalfigure">
+                
+                
+                    
+                        <div role="youtube" {http:="" www.bookeducator.com="" textbook}duration="114" textbook}name="HTML: Commenting your code" style="position:relative; max-width:100%; width:450px; height:253.125px;" class="figure-video" id="y532k">
+            <iframe src="./MyEducator - HTML_ Getting Started with Basic Elements_files/agQLaikpt4s.html" loading="lazy" id="agQLaikpt4s" width="450px" height="253.125px" data-youtube-player-guid="g3347704335c82001x9" data-youtube-id="agQLaikpt4s" data-video-player="youtube" style="max-width: 100%;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-gtm-yt-inspected-8="true" title="HTML: Commenting Your HTML Code">
+            </iframe>
+            </div>
+                    
+                <div class="figurecaption"></div>
+            </div><div class="caption" style="font-size: 16px;">HTML: Commenting Your Code</div></div><script>$(function(){$('#qm5tf').powerTimer({sleepAfter:200,stopAfer:2000,func:function(){var maxwidth=0;$(this).children().not('.caption').each(function(){maxwidth=Math.max(maxwidth,$(this).width());});if(maxwidth>0){$(this).find('.caption').css({'max-width':$(this).closest('.informalfigure').width(),'font-size':'16px'});return false;}},});});</script>
+            
+            <div style="margin-left: auto; margin-right: auto;" align="center" class="figure-container" id="oz1s8"><div class="figure-no-box informalfigure">
+                
+                
+                    
+                        <div role="youtube" {http:="" www.bookeducator.com="" textbook}duration="455" textbook}name="HTML: Navigating folder structures" style="position:relative; max-width:100%; width:450px; height:253.125px;" class="figure-video" id="rq82r">
+            <iframe src="./MyEducator - HTML_ Getting Started with Basic Elements_files/ttbyn4JOITw.html" loading="lazy" id="ttbyn4JOITw" width="450px" height="253.125px" data-youtube-player-guid="g3347704335c82001xa" data-youtube-id="ttbyn4JOITw" data-video-player="youtube" style="max-width: 100%;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-gtm-yt-inspected-8="true" title="HTML: Navigating Folder Structure">
+            </iframe>
+            </div>
+                    
+                <div class="figurecaption"></div>
+            </div><div class="caption" style="font-size: 16px;">HTML: Navigating Folder Structure</div></div><script>$(function(){$('#oz1s8').powerTimer({sleepAfter:200,stopAfer:2000,func:function(){var maxwidth=0;$(this).children().not('.caption').each(function(){maxwidth=Math.max(maxwidth,$(this).width());});if(maxwidth>0){$(this).find('.caption').css({'max-width':$(this).closest('.informalfigure').width(),'font-size':'16px'});return false;}},});});</script>
+        
+            <p class="para" id="nc01p">
+                Folder and file structure is probably the trickiest concept for
+                first-time web developers to understand, so let’s practice
+                some more. Consider the file structure in <a id="gr1l6" href="https://app.myeducator.com/reader/web/2679v/topic-web/mz5od/xv4jj/"><u>Figure 21.1</u></a> and
+                answer the questions listed below the image. You may want to cover
+                the answers with your hand or a sheet of paper to see if you can figure
+                them out on your own. What should the attribute/value pair look like to link
+                from? 
+            </p>
+        
+            <div style="margin-left: auto; margin-right: auto;" align="center" class="figure-container" id="xv4jj"><div class="figure-no-box figure">
+                
+                
+                    
+                        <div class="lazy-content" style="width: 229px; height: auto;" data-element-type="img" data-encoded-html="PGltZyBzcmM9Imh0dHBzOi8vczMtdXMtd2VzdC0yLmFtYXpvbmF3cy5jb20vbXllZC1wcm9kL2Jvb2tzLzI2NzkvZG9jYm9vay9yZXNvdXJjZXMvaW1hZ2VzL2ZpbGUgc3RydWN0dXJlLnBuZyIgYWx0PSJBbiBleGFtcGxlIG9mIGEgZmlsZSBzdHJ1Y3R1cmUgd2l0aCBtdWx0aXBsZSBmb2xkZXJzLCBzdWJmb2xkZXJzLCBhbmQgZmlsZXMuIiBzdHlsZT0id2lkdGg6MjI5cHg7IGhlaWdodDphdXRvOyBtYXgtd2lkdGg6MTAwJTsiIGRhdGEtYWN0dWFsLXdpZHRoPSIyMjlweCIgZGF0YS1hY3R1YWwtaGVpZ2h0PSJhdXRvIiBjbGFzcz0iZmlndXJlLWltZyIgaWQ9ImRmMGFwIiAvPg=="></div>
+                    
+                <div class="figurecaption"></div>
+            </div><div class="caption" style="font-size: 16px;">Figure 21.1: File Structure</div></div><script>$(function(){$('#xv4jj').powerTimer({sleepAfter:200,stopAfer:2000,func:function(){var maxwidth=0;$(this).children().not('.caption').each(function(){maxwidth=Math.max(maxwidth,$(this).width());});if(maxwidth>0){$(this).find('.caption').css({'max-width':$(this).closest('.figure').width(),'font-size':'16px'});return false;}},});});</script>
+        
+            <p class="para" id="uh0ag">
+            1. The index.html page in the main WebFolder to the movies.html
+            page in the same folder? 
+            </p>
+
+            <p class="para" id="h757i">Answer: href="movies.html"</p>
+            
+            <p class="para" id="oy5ml">
+            2. The selected index.html page in the test folder to the
+            resume.html page in the homework folder? 
+            </p>
+            
+            <p class="para" id="bu473">Answer: href="../resume.html"</p>
+            
+            <p class="para" id="c369v">
+            3. The index.html page in the WebFolder to the up.jpg image in the
+            images folder? 
+            </p>
+            
+            <p class="para" id="qi0bw">Answer: src="images/up.jpg"</p>
+            <p class="para" id="a599d">
+            4. The selected index.html page in the test folder to the
+            bullet.gif image in the menu folder? 
+            </p>
+
+            <p class="para" id="nx08z">Answer: src="../../images/menu/bullet.gif"</p>
+            
+            <p class="para" id="vm0zf">
+            You have now learned some basic HTML elements and how to link between files. The next chapter will teach you how to begin styling these elements using Cascading Style Sheets. You will use the files you created in this chapter in the next chapter.
+            </p>
+        
+            <div style="margin-left: auto; margin-right: auto;" align="center" class="figure-container" id="f6033"><div class="figure-no-box informalfigure">
+                
+                
+                    
+                        <div role="youtube" {http:="" www.bookeducator.com="" textbook}duration="400" textbook}name="HTML: Practice the basics; add another page" style="position:relative; max-width:100%; width:450px; height:253.125px;" class="figure-video" id="s965c">
+            <iframe src="./MyEducator - HTML_ Getting Started with Basic Elements_files/SXLmRGkqLCc.html" loading="lazy" id="SXLmRGkqLCc" width="450px" height="253.125px" data-youtube-player-guid="g3347704335c82001xb" data-youtube-id="SXLmRGkqLCc" data-video-player="youtube" style="max-width: 100%;" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-gtm-yt-inspected-8="true" title="HTML: Practicing the Basics; Add Another Page">
+            </iframe>
+            </div>
+                    
+                <div class="figurecaption"></div>
+            </div><div class="caption" style="font-size: 16px;">HTML: Practicing the Basics; Add Another Page</div></div><script>$(function(){$('#f6033').powerTimer({sleepAfter:200,stopAfer:2000,func:function(){var maxwidth=0;$(this).children().not('.caption').each(function(){maxwidth=Math.max(maxwidth,$(this).width());});if(maxwidth>0){$(this).find('.caption').css({'max-width':$(this).closest('.informalfigure').width(),'font-size':'16px'});return false;}},});});</script>
+        </div></div>
+                </div>
+
+                <div class="vertical_spacer"></div>
+                <div class="text-right">
+                  <a href="https://app.myeducator.com/reader/web/2679v/topic-web/ef86y/" class="btn btn-default btn-myed btn-default-myed">Previous</a>
+                  <a href="https://app.myeducator.com/reader/web/2679v/topic-web/kr6wx/" class="btn btn-primary btn-myed btn-primary-myed">Next<span class="far fa-chevron-right ml-4"></span></a>
+                </div>
+
+                <div id="rightToolbarButton" class="pull-right"><div><div id="right_panel"><button type="button" class="collapse_bar_right resize-w" aria-label="Collapse or expand the right sidebar" aria-controls="right_content"><div class="fas fa-ellipsis-v"></div></button></div></div></div>
+                
+
+                    <vapp-aichat userid="3270146246025117697" coursenum="2679v" pageid="mz5od"><template shadowrootmode="open"><div class="vapp-root vapp-styles" data-app="aichat" data-build="stable" data-stage="play" data-platform="browser" data-standalone="0" data-iframe="0"><div><div class="aiChatToggleWrapper" style="display: block;"><button class="d-flex justify-content-end aiChatButton" aria-label="virtual assistant"><img src="https://play.voshi.com/appstatic/aichat/s/media/images/aichat/100px.png" class="aiChatToggle" alt="Virtual Assistant"><i class="icon fa-fw fa-sparkles fas sparkles-icon "></i></button></div></div></div><div class="vapp-modals"><div class="vapp-modal-container"></div><div class="toast-container"></div></div><link rel="stylesheet" href="https://play.voshi.com/appstatic/aichat/s/assets/index-C7ya0vp5.css"><link rel="stylesheet" href="https://play.voshi.com/appstatic/aichat/s/assets/app-lib-DthBUMWq.css"><link rel="stylesheet" href="https://play.voshi.com/appstatic/aichat/s/assets/vendor-markdown-B1y_RORZ.css"><link rel="stylesheet" href="https://play.voshi.com/appstatic/aichat/s/assets/vendor-codetools-D95GE6Gn.css"></template>
+                    </vapp-aichat>
+
+                    <vapp-narrate noswitch=""><template shadowrootmode="open"><div class="vapp-root vapp-styles" data-app="narrate" data-build="stable" data-stage="play" data-platform="browser" data-standalone="0" data-iframe="0"></div><div class="vapp-modals"><div class="vapp-modal-container"></div><div class="toast-container"></div></div><link rel="stylesheet" href="https://play.voshi.com/appstatic/narrate/s/assets/index-BUNtThyr.css"><link rel="stylesheet" href="https://play.voshi.com/appstatic/narrate/s/assets/app-lib-B3c-3nCE.css"></template>
+                    </vapp-narrate>
+
+
+        </section><!-- reader_content (MIDDLE COLUMN) -->
+
+        <section id="right_content" aria-label="reader tools" class="d-none" aria-expanded="false">
+          <div id="booktools_container" class="h-100">
+              <div id="reader_toolbar" class="h-100"><div class="h-100"><div></div></div></div>
+          </div><!-- booktools_container -->
+        </section><!-- right_content -->
+    </main><!-- reader_layout -->
+
+    <div id="user_highlight_popover_template" style="display: none;">
+  <div class="user_highlight_popover">  <!-- This div is used in the JS, don't remove -->
+
+    <div class="pull-right">
+      <button class="delete_highlight btn btn-xs btn-default" tabindex="0"><div class="icon icon_blocked" style="font-size: 0.9em; margin-top: -2px;"></div>Delete</button>
+    </div><!-- pull-right -->
+
+    <div class="color_picker_container">
+      <div class="color_picker_container_inner">
+        <div class="user_highlight_yellow color_picker_item" data-css_class="user_highlight_yellow"></div>
+        <div class="user_highlight_orange color_picker_item" data-css_class="user_highlight_orange"></div>
+        <div class="user_highlight_green color_picker_item" data-css_class="user_highlight_green"></div>
+        <div class="user_highlight_cyan color_picker_item" data-css_class="user_highlight_cyan"></div>
+        <div class="user_highlight_purple color_picker_item" data-css_class="user_highlight_purple"></div>
+        <div class="user_highlight_pink color_picker_item" data-css_class="user_highlight_pink"></div>
+        <div class="user_highlight_blue color_picker_item" data-css_class="user_highlight_blue"></div>
+        <div class="user_highlight_gray color_picker_item" data-css_class="user_highlight_gray"></div>
+        <br>
+        <div class="user_highlight_yellow_underline color_picker_item" data-css_class="user_highlight_yellow_underline">U</div>
+        <div class="user_highlight_orange_underline color_picker_item" data-css_class="user_highlight_orange_underline">U</div>
+        <div class="user_highlight_green_underline color_picker_item" data-css_class="user_highlight_green_underline">U</div>
+        <div class="user_highlight_cyan_underline color_picker_item" data-css_class="user_highlight_cyan_underline">U</div>
+        <div class="user_highlight_purple_underline color_picker_item" data-css_class="user_highlight_purple_underline">U</div>
+        <div class="user_highlight_pink_underline color_picker_item" data-css_class="user_highlight_pink_underline">U</div>
+        <div class="user_highlight_blue_underline color_picker_item" data-css_class="user_highlight_blue_underline">U</div>
+        <div class="user_highlight_gray_underline color_picker_item" data-css_class="user_highlight_gray_underline">U</div>
+      </div><!-- color_picker_container_inner -->
+    </div><!-- color_picker_container -->
+
+    <div class="clearfix"></div>
+    <div class="clearfix"></div>
+
+    <div class="tag_container" style="margin-top: 10px;"></div>
+
+    <div>
+      <label class="sr-only" for="highlight_notes">Add notes to your highlight here</label>
+      <textarea class="highlight_textarea" id="highlight_notes"></textarea>
+    </div>
+    <div>
+      <label class="sr-only" for="highlight_tags">Tag your highlight here</label>
+      <input type="text" class="highlight_tags form-control" id="highlight_tags" name="tags" placeholder="#exampleTag #anotherTag">
+      <button class="save btn btn-primary">Save</button>
+    </div>
+
+  </div><!-- user_highlight_popover -->
+</div><!-- user_highlight_popover_template -->
+
+
+
+
+
+
+    
+
+    
+      <div id="widget_container" class="m-3">
+        
+      </div>
+    
+
+    <div class="slider_container">
+      
+    </div>
+
+    <footer>
+      
+        <div id="footer_main" class="Footer d-flex justify-content-between text-muted p-0 pb-md-5 m-3">
+
+          <div id="footer_logo" class="ml-2">
+            <div id="footer_copyright" class="copyright d-inline-block pb-3 pb-md-0 text-dark-blue">Copyright © 2025 MyEducator. All rights reserved.</div>
+          </div>
+          <div id="footer_support" class="embed-display-none text-center mr-md-5 m-0">
+            <i class="fas fa-info-circle text-secondary mr-1 text-dark-blue"></i>
+              <a class="fs-lg text-dark-blue" href="https://myeducator.freshdesk.com/support/home">Need Help?</a>
+          </div>
+        </div>
+      
+    </footer>
+
+    
+    
+
+    <script type="text/javascript" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/main-2bab5ddc51049a3c6257.js"></script>
+    <script>DMP_CONTEXT.set({"id":"3twjoF9gPiZCYduPrfYU66","version":"5.11.2","templates":["base_app/base_template","reader/base","reader/web"],"app":"reader","page":"web","log":false,"values":{"id":"3twjoF9gPiZCYduPrfYU66"}});</script><script type="text/javascript">$(function(){$('[data-toggle="tooltip"]').tooltip();if($('#body_section_main_container').length>0){if($.trim($('#body_section_left_column_inner').html()).length==0){$('#body_section_center').addClass('col-md-24');$('#body_section_center').removeClass('col-md-19');}
+$(window).off('resize.fixed_containers').on('resize.fixed_containers',function(){var nav_height=$("#header_navigation_container").outerHeight(true);var left_fixed=$(window).scrollTop()+nav_height>$('#body_section_main_container').offset().top;var center_window_height=$(window).height()-$("#header_navigation_container").outerHeight(true);if($('#studybar_visible_button').hasClass('is_backward2')){center_window_height-=$('#studybar_container').outerHeight();}
+$('#body_section_left_column_inner').css({position:left_fixed?'fixed':'static',left:left_fixed?$('#body_section_left_column').offset().left+'px':'auto',top:left_fixed?$("#header_navigation_container").outerHeight(true)+'px':'auto',width:left_fixed?$('#body_section_left_column').width()+'px':'auto',maxHeight:center_window_height+'px',});$('.dropdown-menu').css('max-height',center_window_height+'px');}).trigger('resize.fixed_containers');$(window).off('scroll.fixed_containers').on('scroll.fixed_containers',function(){$(window).trigger('resize.fixed_containers');});$('#body_section_center').css('min-height',$('#body_section_left_column').height());}
+$('#body_section').removeClass('opacity-0')
+$('[tabindex]').off('keydown.enter').on('keydown.enter',function(e){if(e.keyCode==13){$(e.target).trigger('click');}});$('#widget_container').off('reload_widgets').on('reload_widgets',function(){$('#widget_container').load('/account/widget.active_widgets/-/');});$.meRedirector.showResponseMessage();$(function(){let originalHeight=$('.flip-card-front').outerHeight()
+function updateFlipCardHeight(clickedCard,manualHeight){let cards=clickedCard?clickedCard:$('.flip-card-container')
+if(cards){cards.each(function(){const container=clickedCard?clickedCard.parent():$(this);const card=container.find('.flip-card');const front=container.find('.flip-card-front');card.addClass('flip-card-measuring');const height=manualHeight?manualHeight:front.outerHeight();container.css('height',height);card.css('height',height);card.removeClass('flip-card-measuring');});}}
+updateFlipCardHeight();$(window).on('resize',function(){updateFlipCardHeight();})
+$('.flip-card').on('click',function(){$(this).toggleClass('flipped')
+$(this).one('transitionstart',function(){let backHeight=$(this).find('.flip-card-back').outerHeight()
+updateFlipCardHeight($(this),$(this).hasClass('flipped')?backHeight:originalHeight)});});});});</script><script type="text/javascript">$(function(){$('.key').each(function(){var $quote=$(this);var $numWords=$quote.text().split(" ").length;if($numWords==1&&$quote.text().length>50){$quote.css({"font-size":"18px","padding":"20px 15px 15px 15px"});}else{if(($numWords>=1)&&($numWords<10)){$quote.css({"font-size":"36px","padding-top":"70px"});}
+else if(($numWords>=10)&&($numWords<15)){$quote.css({"font-size":"28px","padding-top":"70px"});}
+else if(($numWords>=15)&&($numWords<20)){$quote.css({"font-size":"28px","padding-top":"55px"});}
+else if(($numWords>=20)&&($numWords<30)){$quote.css({"font-size":"26px","padding-top":"60px"});}
+else if(($numWords>=30)&&($numWords<50)){$quote.css({"font-size":"18px","padding-top":"60px"});}else{$quote.css({"font-size":"12px","padding-top":"15px"});}}});$('.definition').each(function(){var $quote=$(this);var $words=$quote.text().split(" ");$words.clean("");var $numWords=$words.length;if($numWords==1&&$quote.text().length>50){$quote.css({"font-size":"14px","padding-top":"15px"});}else{if(($numWords>=1)&&($numWords<10)){$quote.css({"font-size":"30px","padding-top":"60px"});}
+else if(($numWords>=10)&&($numWords<15)){$quote.css({"font-size":"28px","padding-top":"40px"});}
+else if(($numWords>=15)&&($numWords<20)){$quote.css({"font-size":"28px","padding-top":"30px"});}
+else if(($numWords>=20)&&($numWords<25)){$quote.css({"font-size":"26px","padding-top":"30px"});}
+else if(($numWords>=25)&&($numWords<30)){$quote.css({"font-size":"22px","padding-top":"30px"});}
+else if(($numWords>=30)&&($numWords<35)){$quote.css({"font-size":"22px","padding-top":"25px"});}
+else if(($numWords>=35)&&($numWords<40)){$quote.css({"font-size":"20px","padding-top":"25px"});}
+else if(($numWords>=40)&&($numWords<45)){$quote.css({"font-size":"18px","padding-top":"15px"});}
+else if(($numWords>=45)&&($numWords<50)){$quote.css({"font-size":"18px","padding-top":"15px"});}
+else if(($numWords>=50)&&($numWords<55)){$quote.css({"font-size":"18px","padding-top":"15px"});}
+else{$quote.css({"font-size":"14px","padding-top":"15px"});}}});});Array.prototype.clean=function(deleteValue){for(var i=0;i<this.length;i++){if(this[i]==deleteValue){this.splice(i,1);i--;}}
+return this;};</script><script type="text/javascript">(function($){$.fn.hasScrollBar=function(){return this.get(0).scrollHeight>this.height();}})(jQuery);$(function(){$('.activity-container').each(function(){var container=$(this)
+container.load('/course/activity.insert/2679v/'+container.data('activity-id'))})
+let viewManager=new MyEducator.ReaderViewManager('False'==='True')
+viewManager.start()
+let readerAnalytics=new MyEducator.ReaderAnalytics('False','topic-web','mz5od','2025-04-15 04:35:43.003741')
+readerAnalytics.start()});$(function(){$(window).off('scroll.lazy-content').on('scroll.lazy-content',function(event,displayAll){$(document).powerTimer({name:'lazy-content',delay:150,func:function(){$('.lazy-content').each(function(){var elem=$(this);if(displayAll||elem.parent().is(':onScreen')){elem.removeClass('lazy-content').addClass('lazy-content-loaded');var vidElement=$(Base64.decode(elem.attr('data-encoded-html')||''));elem.append(vidElement);if(elem.attr('data-encoded-html-playbutton')){var playElement=$(Base64.decode(elem.attr('data-encoded-html-playbutton')||''));elem.append(playElement);$(this).click(function(){$(this).children('img').remove();var newElement=$(Base64.decode(elem.attr('data-encoded-html-player')||''));elem.append(newElement);});}
+$(document).trigger('lazy-content-load',[vidElement]);}});},});});$(window).trigger('scroll.lazy-content');});$(document).off('lazy-content-load.figure-img').on('lazy-content-load.figure-img',function(e,elem){$(elem).filter('img').closest('.lazy-content-loaded').css({width:'auto',height:'auto',});});$(function(){$(document).off('lazy-content-load.graphics_callouts').on('lazy-content-load.graphics_callouts',function(e,img){img=$(img).filter('img');var id=img.attr('id');var callouts=img.closest('.lazy-content-loaded').siblings('.figure-img-callout').filter('[data-image-id='+id+']');if(id&&callouts.length>0){var scaling={x:1.0,y:1.0,};var act_width=parseFloat(img.attr('data-actual-width'));if(act_width){scaling.x=(img.width()/act_width)||1.0;}
+var act_height=parseFloat(img.attr('data-actual-height'));if(act_height){scaling.y=(img.height()/act_height)||1.0;}
+img.siblings('.figure-img-callout-pin').remove();img.closest('.lazy-content-loaded').css('position','relative');callouts.each(function(){var callout=$(this);var pin=$('<div class="figure-img-callout-pin icon icon_brightness_high icon_color_maroon"></div>');pin.css({left:(parseInt(callout.attr('data-image-x'))*scaling.x)+'px',top:(parseInt(callout.attr('data-image-y'))*scaling.y)+'px',});img.after(pin);pin.popover({placement:'top',trigger:'hover',html:true,content:callout.html(),});});}});});$(function(){$("vapp-narrate").on('vapp-ready',function(e){if(sessionStorage.getItem('narrate-switch')==='1'){this.setAttribute('show','show')}else{this.removeAttribute('show')}
+this.updateConfig(JSON.parse(atob("eyJyb290IjoiI2Jvb2tjb250ZW50Iiwic2VsZWN0b3JzIjpbImgxIiwiaDIiLCJoMyIsImg0IiwiaDUiLCJoNiIsInAiLCJ0aCIsInRkIiwiY29kZSIsInRpdGxlIiwiLmZpZ3VyZWNhcHRpb24iLCIucHlnbWVudHNfY29kZSIsIi5jYXB0aW9uIiwiLnNpZGViYXItdGl0bGUiLCIuY2F1dGlvbi10aXRsZSIsIi5pbXBvcnRhbnQtdGl0bGUiLCIubm90ZS10aXRsZSIsIi50aXAtdGl0bGUiLCIud2FybmluZy10aXRsZSJdLCJpZ25vcmVzIjpbInNjcmlwdCIsInN0eWxlIiwiaWZyYW1lIiwiZnJhbWUiLCJlbWJlZCIsIm9iamVjdCIsImNhbnZhcyIsImF1ZGlvIiwidmlkZW8iLCJpbWciLCJzdmciLCJtYXRoIiwiLnRleHRib29rLWFjdGl2aXR5LWNvbnRhaW5lciJdLCJ2b2ljZV9pZCI6IlJ1dGgiLCJsYW5nX2NvZGUiOiJlbi1VUyIsIm1ldGEtdGl0bGUiOiJIVE1MOiBHZXR0aW5nIFN0YXJ0ZWQgd2l0aCBCYXNpYyBFbGVtZW50cyIsIm1ldGEtY29tcGlsYXRpb24iOiJJbnRyb2R1Y3Rpb24gdG8gSW5mb3JtYXRpb24gU3lzdGVtcyIsIm1ldGEtcHVibGlzaGVyIjoiTXlFZHVjYXRvciIsIm1ldGEtc291cmNlIjoibWNuPTI2NzkmY249MjY3OXYmc2VjPW16NW9kIn0")))});$("vapp-narrate").on('vapp-show-player',function(e){window.sessionStorage.setItem('narrate-switch','1');}).on('vapp-hide-player',function(e){window.sessionStorage.setItem('narrate-switch','0');});});$(function(){let selectedCards=[];let isProcessing=false;function handleCardClick(card){let uniqueId=$(card).parent().parent().attr('id')
+if(card.classList.contains('matched')||card.classList.contains('selected')||selectedCards.length>=2||isProcessing){return;}
+card.classList.add('selected');card.setAttribute('aria-selected','true');selectedCards.push(card);if(selectedCards.length===2){isProcessing=true;const[first,second]=selectedCards;const isMatch=first.dataset.index===second.dataset.index;setTimeout(()=>{if(isMatch){first.classList.remove('selected');second.classList.remove('selected');first.classList.add('matched');second.classList.add('matched');first.setAttribute('aria-selected','false');second.setAttribute('aria-selected','false');first.setAttribute('aria-disabled','true');second.setAttribute('aria-disabled','true');const allCards=document.querySelectorAll('#'+uniqueId+' .matching-card');const matchedCards=document.querySelectorAll('#'+uniqueId+' .matching-card.matched');if(allCards.length===matchedCards.length){const announcement=document.createElement('div');announcement.setAttribute('role','alert');announcement.className='visually-hidden';announcement.textContent='Congratulations! You have matched all pairs!';document.getElementById(uniqueId).appendChild(announcement);}}else{first.classList.remove('selected');second.classList.remove('selected');first.setAttribute('aria-selected','false');second.setAttribute('aria-selected','false');}
+selectedCards=[];isProcessing=false;},750);}}
+function resetGame(){selectedCards=[];isProcessing=false;$('.matching-card').removeClass('selected matched').attr('aria-selected','false').attr('aria-disabled','false');$('[role="alert"]').remove();swapTermsDefs();}
+function swapTermsDefs(){const randomize=itemList=>{pairCount=itemList.length
+while(--pairCount){let current=Math.floor(Math.random()*(pairCount+1))
+let temp=itemList[current]
+itemList[current]=itemList[pairCount]
+itemList[pairCount]=temp}
+return itemList}
+const addBackEventListeners=(el)=>{el.addEventListener('click',()=>handleCardClick(el))
+el.addEventListener('keydown',(e)=>{if(e.key==='Enter'||e.key===' '){e.preventDefault()
+handleCardClick(el)}})}
+let gameboard=$('.gameBoard')
+let termDefRows=$(gameboard[0].cloneNode(true)).children().toArray()
+let termsDefs=[]
+termDefRows.map(row=>{termsDefs.push(row.children[0])
+termsDefs.push(row.children[1])})
+let defs=[]
+let terms=[]
+termsDefs.forEach((termDef,i)=>{let newTermDef=termDef.cloneNode(true)
+if(i%2===0){terms.push(newTermDef)}else{defs.push(newTermDef)}})
+let rterms=randomize(terms)
+let rdefs=randomize(defs)
+let randomizedEls=[]
+for(let i=0;i<rterms.length;i++){randomizedEls.push(rterms[i])
+randomizedEls.push(rdefs[i])}
+randomizedEls.reverse()
+gameboard.children().toArray().forEach((row,i)=>{let replaceDef=row.children[0]
+let replaceTerm=row.children[1]
+let newDef=randomizedEls.pop()
+let newTerm=randomizedEls.pop()
+addBackEventListeners(newDef)
+addBackEventListeners(newTerm)
+replaceDef.replaceWith(newDef)
+replaceTerm.replaceWith(newTerm)})}
+const resetButton=$('<button>',{text:'Reset Matching Game',class:'btn btn-myed btn-default btn-default-myed',click:resetGame});$('.gameBoard').after(resetButton);swapTermsDefs()})
+$(function(){let placeholderTag=document.getElementById('calculator')
+let defaultSolveFor=placeholderTag.getAttribute('data-solve-for')
+let futureLabel=placeholderTag.getAttribute('data-future-label')
+let futureDefault=placeholderTag.getAttribute('data-future-value')
+let presentLabel=placeholderTag.getAttribute('data-present-label')
+let presentDefault=placeholderTag.getAttribute('data-present-value')
+let interestLabel=placeholderTag.getAttribute('data-interest-label')
+let interestDefault=placeholderTag.getAttribute('data-interest-rate')
+let periodsLabel=placeholderTag.getAttribute('data-periods-label')
+let periodsDefault=placeholderTag.getAttribute('data-num-periods')
+const dynamicInputs=[['future-value',futureLabel||'Future Value','0.01',futureDefault],['present-value',presentLabel||'Present Value','0.01',presentDefault],['interest-rate',interestLabel||'Interest Rate','0.01',interestDefault],['periods',periodsLabel||'Number of Periods','1',periodsDefault]]
+createHtml();const form=document.getElementById('calculator-form');const solveForSelect=document.getElementById('solve-for');const result=document.getElementById('result');updateFormFields();solveForSelect.addEventListener('change',updateFormFields);form.addEventListener('submit',handleCalculatorSubmit);const resetBtn=document.getElementById('calculator-reset')
+resetBtn.addEventListener('click',function(e){e.preventDefault()
+form.reset()
+updateFormFields()})
+function updateFormFields(){const solveFor=solveForSelect.value;result.textContent='';result.hidden=true
+dynamicInputs.forEach(item=>{document.getElementById(item[0]).value=''})
+document.getElementById('calculation-container').hidden=true
+document.getElementById('formula').hidden=true
+document.getElementById('show-calc').hidden=false
+document.getElementById('btn-container').hidden=false
+const inputs=form.querySelectorAll('input');inputs.forEach(input=>{const group=document.getElementById(input.id+"-group");const error=document.getElementById(input.id+"-error");group.style.display='block';input.removeAttribute('aria-invalid');error.textContent='';});const solveForInput=document.getElementById(solveFor);if(solveForInput){const group=document.getElementById(solveFor+"-group");group.style.display='none';}}
+function validateForm(){const solveFor=solveForSelect.value;let isValid=true;const errors={};form.querySelectorAll('input').forEach(input=>{if(input.id===solveFor)return;const group=document.getElementById(input.id+"-group");if(group.style.display==='none')return;const value=parseFloat(input.value);if(!input.value.trim()){errors[input.id]='This field is required';isValid=false;}else if(isNaN(value)){errors[input.id]='Please enter a valid number';isValid=false;}else if(input.id==='interest-rate'&&(value<0||value>100)){errors[input.id]='Interest rate must be between 0 and 100';isValid=false;}else if(input.id==='periods'&&(value<0||!Number.isInteger(value))){errors[input.id]='Periods must be a positive integer';isValid=false;}else if((input.id==='present-value'||input.id==='future-value')&&value<0){errors[input.id]='Value cannot be negative';isValid=false;}});Object.keys(errors).forEach(inputId=>{const input=document.getElementById(inputId);const error=document.getElementById(inputId+"-error");input.setAttribute('aria-invalid','true');error.textContent=errors[inputId];});return isValid;}
+function handleCalculatorSubmit(e){e.preventDefault();if(!validateForm())return;const solveFor=solveForSelect.value;const pv=parseFloat(document.getElementById('present-value').value);const fv=parseFloat(document.getElementById('future-value').value);const r=parseFloat(document.getElementById('interest-rate').value)/100;const n=parseFloat(document.getElementById('periods').value);let calculatedValue;let label;let writtenFormulas={'future-value':{'mainFormula':pv+' x ('+'1 + '+r+')','exp':n},'present-value':{'mainFormula':fv+' / ('+'1 + '+r+')','exp':n},'interest-rate':{'mainFormula':'('+fv+' / '+pv+')','exp':'1/'+n},'periods':{'mainFormula':'log('+fv+' / '+pv+') / '+'log(1 + '+r+')'}}
+let writtenFormulaEl=document.createElement('span')
+let writtenFormula=writtenFormulas[solveFor]['mainFormula']
+writtenFormulaEl.textContent=writtenFormula
+if(writtenFormulas[solveFor]?.exp){let superscriptEl=document.createElement('sup')
+let superscript=writtenFormulas[solveFor].exp
+superscriptEl.textContent=superscript
+writtenFormulaEl.append(superscriptEl)}
+switch(solveFor){case'future-value':calculatedValue=pv*Math.pow(1+r,n);label=dynamicInputs[0][1];break;case'present-value':calculatedValue=fv/Math.pow(1+r,n);label=dynamicInputs[1][1];break;case'interest-rate':calculatedValue=(Math.pow(fv/pv,1/n)-1)*100;label=dynamicInputs[2][1];break;case'periods':calculatedValue=Math.log(fv/pv)/Math.log(1+r);label=dynamicInputs[3][1];break;}
+let prefix=['future-value','present-value'].indexOf(solveFor)>-1?'$':''
+let suffix=solveFor==='interest-rate'?'%':''
+formattedResult=prefix+Intl.NumberFormat().format(calculatedValue.toFixed(2))+suffix;result.removeAttribute('hidden')
+let calcContainer=document.getElementById('calculation-container')
+let formulaEl=document.getElementById('formula')
+formulaEl.innerHTML=''
+formulaEl.append(writtenFormulaEl)
+if(!result.firstChild){calcContainer.removeAttribute('hidden')
+let solveForLabel=document.createElement('span')
+solveForLabel.textContent=label
+result.appendChild(solveForLabel)
+let resultValContainer=document.createElement('div')
+resultValContainer.className='text-right'
+let resultVal=document.createElement('span')
+resultVal.textContent=formattedResult;resultValContainer.appendChild(resultVal)
+result.append(resultValContainer)}else{result.firstChild.textContent=label
+result.children[1].firstChild.textContent=formattedResult;}}
+function createHtml(){const calcDiv=document.createElement('div')
+calcDiv.className='calculator'
+const header=document.createElement('h5')
+header.textContent='Financial Calculator'
+calcDiv.appendChild(header)
+const title=document.createElement('title')
+title.textContent='Financial Calculator'
+calcDiv.appendChild(title)
+const form=document.createElement('form')
+form.id='calculator-form'
+form.noValidate=true
+const selFormGroup=document.createElement('div')
+selFormGroup.className='form-group'
+const selectLabel=document.createElement('label')
+selectLabel.className='solve-for'
+selectLabel.setAttribute('for','solve-for')
+selectLabel.textContent='Solve for'
+selFormGroup.appendChild(selectLabel)
+const selectInput=document.createElement('select')
+selectInput.id='solve-for'
+selectInput.className='calculator-input'
+selectInput.setAttribute('name','solve-for')
+selectInput.required=true
+dynamicInputs.forEach(item=>{let opt=document.createElement('option')
+opt.setAttribute('value',item[0])
+opt.textContent=item[1]
+if(defaultSolveFor===item[0]){opt.selected=true}
+selectInput.appendChild(opt)})
+selFormGroup.appendChild(selectInput)
+form.appendChild(selFormGroup)
+dynamicInputs.forEach(item=>{let formGroup=document.createElement('div')
+formGroup.className='form-group'
+formGroup.id=item[0]+'-group'
+let groupContainer=document.createElement('div')
+groupContainer.className='d-flex justify-content-between'
+let numLabel=document.createElement('label')
+numLabel.className='align-self-center'
+numLabel.setAttribute('for',item[0])
+numLabel.textContent=item[1]+':'
+groupContainer.appendChild(numLabel)
+let numInput=document.createElement('input')
+numInput.className='pull-right similar-input calculator-input'
+numInput.setAttribute('type','number')
+numInput.id=item[0]
+numInput.setAttribute('name',item[0])
+numInput.setAttribute('step',item[2])
+numInput.required=true
+numInput.value=item[3]
+numInput.setAttribute('aria-describedby',item[0]+'-error')
+groupContainer.appendChild(numInput)
+formGroup.appendChild(groupContainer)
+let errorDiv=document.createElement('div')
+errorDiv.id=item[0]+'-error'
+errorDiv.className='error'
+errorDiv.setAttribute('role','alert')
+formGroup.appendChild(errorDiv)
+form.appendChild(formGroup)})
+let btnContainer=document.createElement('div')
+btnContainer.className='d-flex'
+btnContainer.id='btn-container'
+let submitBtn=document.createElement('button')
+submitBtn.className='btn btn-default btn-myed btn-default-myed mr-4'
+submitBtn.setAttribute('type','submit')
+submitBtn.textContent='Calculate'
+btnContainer.appendChild(submitBtn)
+let resetBtn=document.createElement('button')
+resetBtn.className='btn btn-default btn-myed btn-default-myed'
+resetBtn.id='calculator-reset'
+resetBtn.textContent='Reset'
+resetBtn.setAttribute('type','reset')
+btnContainer.appendChild(resetBtn)
+form.appendChild(btnContainer)
+calcDiv.appendChild(form)
+let resultContainer=document.createElement('div')
+resultContainer.id='result'
+resultContainer.setAttribute('role','status')
+resultContainer.setAttribute('aria-live','polite')
+resultContainer.hidden=true
+let resultSolveFor=document.createElement('span')
+resultContainer.append(resultSolveFor)
+calcDiv.appendChild(resultContainer)
+let calcContainer=document.createElement('div')
+calcContainer.className='text-center calc-container'
+calcContainer.id='calculation-container'
+calcContainer.hidden=true
+let showCalcBtn=document.createElement('button')
+showCalcBtn.id='show-calc'
+showCalcBtn.className='show-calc btn btn-default btn-myed btn-default-myed'
+showCalcBtn.textContent='Show Calculation'
+showCalcBtn.addEventListener('click',function(){formulaDiv.removeAttribute('hidden')
+calcContainer.hidden=true})
+calcContainer.appendChild(showCalcBtn)
+calcDiv.appendChild(calcContainer)
+let formulaDiv=document.createElement('div')
+formulaDiv.className='text-center'
+formulaDiv.id='formula'
+formulaDiv.hidden=true
+calcDiv.appendChild(formulaDiv)
+let replaceCal=document.getElementById('calculator')
+replaceCal.replaceWith(calcDiv)}})
+$(function(){const puzzleSize=document.querySelector('.crossword-container').dataset.size
+const acrossClueContainer=document.querySelector('.across-clues')
+const downClueContainer=document.querySelector('.down-clues')
+const parseClueAnswers=clueContainer=>{let answerArray=[]
+for(let i=0;i<clueContainer.children.length;i++){answerArray.push(clueContainer.children[i].children[0])}
+return answerArray}
+const acrossClueAnswers=parseClueAnswers(acrossClueContainer)
+const downClueAnswers=parseClueAnswers(downClueContainer)
+const parseGridRows=rowList=>{let grid=[]
+Array.from(rowList).forEach(row=>{let gridRow=[]
+row.dataset.row.split(",").forEach(ch=>{if(ch==='.'||ch==='*'){gridRow.push(ch)}else{gridRow.push(Number(ch))}})
+grid.push(gridRow)})
+return grid}
+const parseAnswers=clueAnswerList=>{let answers={}
+Array.from(clueAnswerList).forEach(el=>{answers[el.dataset.number]=el.dataset.answer})
+return answers}
+const puzzleData={size:puzzleSize,grid:parseGridRows(document.querySelectorAll('.crossword-row')),answers:{across:parseAnswers(acrossClueAnswers),down:parseAnswers(downClueAnswers)}};(function createGrid(){const gridElement=document.getElementsByClassName("grid")[0];let puzzleSize=puzzleData.size
+const resizeObserver=new ResizeObserver(entries=>{requestAnimationFrame(()=>{let newWidth=entries[0].contentRect.width
+document.querySelectorAll('.cell').forEach(cell=>{let squareSize=Math.min(90,newWidth/puzzleSize)+'px'
+cell.style.width=squareSize
+cell.style.height=squareSize})})})
+resizeObserver.observe(document.querySelector('.crossword-container'))
+for(let i=0;i<puzzleSize;i++){const row=document.createElement('div');row.className='row';row.setAttribute('role','row');for(let j=0;j<puzzleData.size;j++){const cell=document.createElement('div');cell.className='cell';cell.setAttribute('role','gridcell');if(puzzleData.grid[i][j]==='*'){cell.classList.add('black');cell.setAttribute('aria-label','black square');}else{const input=document.createElement('input');input.maxLength=1;input.dataset.row=i;input.dataset.col=j;const xMark=document.createElement('div');xMark.className='x-mark';xMark.innerHTML='✕';xMark.setAttribute('aria-hidden','true');cell.appendChild(xMark);const cellNumber=typeof puzzleData.grid[i][j]==='number'?+', number '+puzzleData.grid[i][j]:'';input.setAttribute('aria-label','Row '+i+1+', Column '+j+1+cellNumber);setupCellInput(input);const checkMark=document.createElement('div');checkMark.className='check-mark';checkMark.innerHTML='✓';checkMark.setAttribute('aria-hidden','true');cell.appendChild(input);cell.appendChild(checkMark);if(typeof puzzleData.grid[i][j]==='number'){const number=document.createElement('div');number.className='cell-number';number.textContent=puzzleData.grid[i][j];cell.appendChild(number);}}
+row.appendChild(cell);}
+gridElement.appendChild(row);}})()
+function setupCellInput(input){input.addEventListener('keydown',(e)=>{const row=parseInt(input.dataset.row);const col=parseInt(input.dataset.col);if(e.key.startsWith('Arrow')){e.preventDefault();let nextInput=null;switch(e.key){case'ArrowRight':nextInput=findAdjacentInput(row,col+1);break;case'ArrowLeft':nextInput=findAdjacentInput(row,col-1);break;case'ArrowUp':nextInput=findAdjacentInput(row-1,col);break;case'ArrowDown':nextInput=findAdjacentInput(row+1,col);break;}
+if(nextInput){nextInput.focus();}
+return;}
+if(e.key.length===1&&e.key.match(/[a-zA-Z]/)){e.preventDefault();input.value=e.key.toUpperCase();const nextInput=findNextInput(input);if(nextInput){nextInput.focus();}}else if(e.key==='Backspace'){if(input.value===''){const prevInput=findPreviousInput(input);if(prevInput){prevInput.focus();prevInput.value='';}}else{input.value='';}}});}
+function findAdjacentInput(row,col){if(row<0||row>=puzzleData.size||col<0||col>=puzzleData.size){return null;}
+const input=document.querySelector("input[data-row=\'"+row+"\'][data-col=\'"+col+"\']");if(input){return input;}else if(puzzleData.grid[row][col]==='*'){if(col>0&&col<puzzleData.size-1){return findAdjacentInput(row,col>parseInt(document.activeElement.dataset.col)?col+1:col-1);}
+if(row>0&&row<puzzleData.size-1){return findAdjacentInput(row>parseInt(document.activeElement.dataset.row)?row+1:row-1,col);}}
+return null;}
+function findNextInput(currentInput){const row=parseInt(currentInput.dataset.row);const col=parseInt(currentInput.dataset.col);let nextCell=document.querySelector("input[data-row=\'"+row+"\'][data-col=\'"+(col+1)+"\']");if(!nextCell){nextCell=document.querySelector("input[data-row=\'"+(row+1)+"\'][data-col='0']");}
+return nextCell;}
+function findPreviousInput(currentInput){const row=parseInt(currentInput.dataset.row);const col=parseInt(currentInput.dataset.col);let prevCell=document.querySelector("input[data-row=\'"+row+"\'][data-col=\'"+(col-1)+"\']");if(!prevCell&&row>0){const lastColInPrevRow=puzzleData.size-1;prevCell=document.querySelector("input[data-row=\'"+(row-1)+"\'][data-col=\'"+lastColInPrevRow+"\']");}
+return prevCell;}
+(function setupAnswerChecking(){const checkButton=document.getElementsByClassName('check-answers')[0];const statusMessage=document.getElementsByClassName('status-message')[0];checkButton.addEventListener('click',()=>{const inputs=document.querySelectorAll('input');let correctCount=0;let totalCount=0;inputs.forEach(input=>{const row=parseInt(input.dataset.row);const col=parseInt(input.dataset.col);const userValue=input.value.toUpperCase();let isCorrect=false;for(const[number,answer]of Object.entries(puzzleData.answers.across)){const startCell=findStartCell(number,'across');if(isPartOfWord(row,col,startCell,answer.length,'across')){const position=col-startCell.col;if(userValue===answer[position]){isCorrect=true;}}}
+for(const[number,answer]of Object.entries(puzzleData.answers.down)){const startCell=findStartCell(number,'down');if(isPartOfWord(row,col,startCell,answer.length,'down')){const position=row-startCell.row;if(userValue===answer[position]){isCorrect=true;}}}
+if(userValue){totalCount++;if(isCorrect){correctCount++;input.parentElement.classList.add('correct');}else{input.parentElement.classList.add('incorrect');setTimeout(()=>{input.parentElement.classList.remove('incorrect');},2000);}}});statusMessage.textContent="Checked answers: "+correctCount+" correct out of "+totalCount+" cells filled."});})()
+function findStartCell(number,direction){for(let i=0;i<puzzleData.size;i++){for(let j=0;j<puzzleData.size;j++){if(puzzleData.grid[i][j]===parseInt(number)){return{row:i,col:j};}}}
+return null;}
+function isPartOfWord(row,col,startCell,length,direction){if(!startCell)return false;if(direction==='across'){return row===startCell.row&&col>=startCell.col&&col<startCell.col+length;}else{return col===startCell.col&&row>=startCell.row&&row<startCell.row+length;}}
+(function setupResetButton(){const resetButton=document.getElementsByClassName('reset-puzzle')[0];const statusMessage=document.getElementsByClassName('status-message')[0];resetButton.addEventListener('click',()=>{const inputs=document.querySelectorAll('input');inputs.forEach(input=>{input.value='';input.parentElement.classList.remove('correct');});statusMessage.textContent='Puzzle has been reset';});})();(function setupClueReveals(){const revealBtns=document.getElementsByClassName('crossword-reveal-answer')
+for(let btn of revealBtns){const parentDiv=btn.parentElement.parentElement
+const answerData=parentDiv.children[0].dataset
+const answerNumber=answerData.number
+const downAcross=parentDiv.parentElement.dataset.downAcross
+btn.ariaLabel="Show answer for "+answerNumber+' '+downAcross
+btn.addEventListener('click',()=>{btn.remove()
+const answerEl=document.createElement('span')
+answerEl.textContent=answerData.answer
+answerEl.ariaLabel="Answer shown for "+answerNumber+' '+downAcross
+parentDiv.children[1].appendChild(answerEl)})}})();})
+$(function(){var bookcontent=$('#bookcontent');var popover_template=$('#user_highlight_popover_template');function isHighlightOn(){return $.jStorage.get('highlighter-on');}
+function setHighlightMode(state){$.jStorage.set('highlighter-on',state);}
+var user_highlight_css_class=$.jStorage.get('highlighter-css-class')||'user_highlight_yellow'
+bookcontent.off('click.color_picker').on('click.color_picker','.color_picker_item',function(){user_highlight_css_class=$(this).attr('class').split(' ')[0];$.jStorage.set('highlighter-css-class',user_highlight_css_class);var highlight_id=$(this).closest('.popover').attr('data-highlight_id');var elems=$('.user_highlight[data-highlight_id='+highlight_id+']');popover_template.find('.color_picker_item').each(function(){elems.removeClass($(this).attr('data-css_class'));});elems.addClass(user_highlight_css_class);saveHighlight(elems.get(0));});function resetHighlights(initialLoad){if(isHighlightOn()){$.ajax({progressBarStyle:false,type:'GET',url:'/reader/booktools.get_highlights/2679v/mz5od/',dataType:'json',success:function(data,textStatus,response){if(response.getResponseHeader('me-response-type')=='error'){$.meDialog.topMessage(data,4000,'danger');}else{for(var i=0;i<data.length;i++){highlightText(data[i]);}}},});}else{$('.user_highlight').each(function(){$(this).replaceWith($(this).contents());});}}
+bookcontent.off('mouseup.highlight').on('mouseup.highlight',function(event){if(!isHighlightOn()){return;}
+if(rangy.getNativeSelection().rangeCount==0){return;}
+var range=rangy.getNativeSelection().getRangeAt(0);if(range.startContainer==range.endContainer&&range.startOffset==range.endOffset){return;}
+var sC=range.startContainer;while(sC!=null&&sC.nodeType!=sC.ELEMENT_NODE){sC=sC.parentNode;}
+var eC=range.endContainer;while(eC!=null&&eC.nodeType!=eC.ELEMENT_NODE){eC=eC.parentNode;}
+if(sC==null||$(sC).closest(bookcontent).length==0||eC==null||$(eC).closest(bookcontent).length==0){return;}
+if((sC!=null&&$(sC).closest('.popover').length>0)||(eC!=null&&$(eC).closest('.popover').length>0)){return;}
+createHighlight(range);});function createHighlight(range){var parent1=$(range.startContainer).closest('[id]').get(0);var range1=rangy.createRange();range1.setStartBefore(parent1);range1.setEndBefore(range.startContainer);var numChars1=range1.toString().length+range.startOffset;range1.detach();var parent2=$(range.endContainer).closest('[id]').get(0);var range2=rangy.createRange();range2.setStartBefore(parent2);range2.setEndBefore(range.endContainer);var numChars2=range2.toString().length+range.endOffset;range2.detach();$.ajax({progressBarStyle:false,type:'POST',url:'/reader/booktools.post_highlight/2679v/mz5od/',data:{anchor1:$(parent1).attr('id'),offset1:numChars1,anchor2:$(parent2).attr('id'),offset2:numChars2,css_class:user_highlight_css_class,},dataType:'json',success:function(data,textStatus,response){if(response.getResponseHeader('me-response-type')=='error'){$.meDialog.topMessage(data,4000,'danger');}else{highlightText(data);window.getSelection().removeAllRanges();saveContent(data);$.meDialog.topMessage("New highlight saved.",4000,'success');}},});}
+function saveContent(highlight){var elems=$('.user_highlight[data-highlight_id='+highlight.id+']');var content_string='';var parsed_string='';$.each(elems,function(i){content_string+=$(this).html();});return $.post('/reader/booktools.save_content_string/2679v/'+highlight.id+'/',{content_string:content_string}).fail(function(resp){$.meDialog.topMessage(resp.responseJSON.message,8000,'danger');});}
+function highlightText(highlight){var anchor1=$(document.getElementById(highlight.anchor1))
+var offset1=highlight.offset1;var anchor2=$(document.getElementById(highlight.anchor2))
+var offset2=highlight.offset2;if(anchor1.length==0||anchor2.length==0){return;}
+var range=rangy.createRange();var range1=rangy.createRange();range1.selectNodeContents(anchor1.get(0));var textnodes1=range1.getNodes([3]);for(var i=0;i<textnodes1.length;i++){if(textnodes1[i].textContent.length>=offset1){range.setStart(textnodes1[i],offset1);break;}else{offset1-=textnodes1[i].textContent.length;}}
+var range2=rangy.createRange();range2.selectNodeContents(anchor2.get(0));var textnodes2=range2.getNodes([3]);for(var i=0;i<textnodes2.length;i++){if(textnodes2[i].textContent.length>=offset2){range.setEnd(textnodes2[i],offset2);break;}else{offset2-=textnodes2[i].textContent.length;}}
+range1.detach();range2.detach();var textNodes=range.getNodes([3]);for(var i=0;i<textNodes.length;i++){if(!textNodes[i].textContent.trim()){continue}
+if(i==0&&textNodes.length==1){$(textNodes[i]).replaceWith(textNodes[i].textContent.substring(0,range.startOffset)+'<span class="user_highlight '+highlight.css_class+'" data-highlight_id="'+highlight.id+'">'+textNodes[i].textContent.substring(range.startOffset,range.endOffset)+'</span>'+textNodes[i].textContent.substring(range.endOffset));}else if(i==0){$(textNodes[i]).replaceWith(textNodes[i].textContent.substring(0,range.startOffset)+'<span class="user_highlight '+highlight.css_class+'" data-highlight_id="'+highlight.id+'">'+textNodes[i].textContent.substring(range.startOffset)+'</span>');}else if(i==textNodes.length-1){$(textNodes[i]).replaceWith('<span class="user_highlight '+highlight.css_class+'" data-highlight_id="'+highlight.id+'">'+textNodes[i].textContent.substring(0,range.endOffset)+'</span>'+textNodes[i].textContent.substring(range.endOffset));}else{$(textNodes[i]).wrap('<span class="user_highlight '+highlight.css_class+'" data-highlight_id="'+highlight.id+'"></span>');}}
+$('.user_highlight[data-highlight_id='+highlight.id+']').data('highlight-note',highlight.note||'');$('.user_highlight[data-highlight_id='+highlight.id+']').data('highlight-tags',highlight.tags||'');}
+function saveHighlight(elem){elem=$(elem);var tags_string=elem.data('highlight-tags').join().replace(/,/g,' ')
+elem.powerTimer({name:'save_highlight',delay:2000,func:function(){var css_class="";popover_template.find('.color_picker_item').each(function(){var cc=$(this).attr('data-css_class');if(elem.hasClass(cc)){css_class=cc;return;}});$.ajax({progressBarStyle:false,type:'POST',url:'/reader/booktools.update_highlight/2679v/',data:{highlight_id:elem.attr('data-highlight_id'),css_class:css_class,content_string:elem.data('content_string'),note:elem.data('highlight-note')||'',tags:tags_string||'',},dataType:'text',success:function(data,textStatus,response){if(response.getResponseHeader('me-response-type')=='error'){$.meDialog.topMessage(data,4000,'danger');}else{$.meDialog.topMessage("Highlight changes saved.",4000,'success');}},});},});}
+bookcontent.off('click.delete_highlight').on('click.delete_highlight','.delete_highlight',function(){if($(this).hasClass('highlight_deleting')){return;}
+$(this).addClass('highlight_deleting');var highlight_id=$(this).closest('.popover').attr('data-highlight_id');$('.user_highlight').popover('destroy');var elems=$('.user_highlight[data-highlight_id='+highlight_id+']');$.each(elems,function(i){$(this).replaceWith($(this).contents());})
+$.ajax({progressBarStyle:false,type:'POST',url:'/reader/booktools.delete_highlight/2679v/',data:{highlight_id:highlight_id,},dataType:'text',success:function(data,textStatus,response){if(response.getResponseHeader('me-response-type')=='error'){$.meDialog.topMessage(data,4000,'danger');}else{$.meDialog.topMessage("Highlight removed.",4000,'success');}},});});bookcontent.off('mouseenter.highlight-popover','.user-highlight').on('mouseenter.highlight-popover','.user_highlight',function(event){var highlight_id=$(this).attr('data-highlight_id');var elem=$('.user_highlight[data-highlight_id='+highlight_id+']').first();elem.data('mouse_inside_element',true);elem.popover({html:true,placement:'top auto',trigger:'manual',container:"#"+bookcontent.attr('id'),content:popover_template.html(),});elem.popover('show');var popover=bookcontent.find('.user_highlight_popover').closest('.popover');popover.find('.highlight_textarea').val(elem.data('highlight-note')||'');popover.find('.tag_container').empty();for(var i=0;i<elem.data('highlight-tags').length;i++){popover.find('.tag_container').append('<span class="tag_button" data-tagname="'+elem.data('highlight-tags')[i]+'">'+elem.data('highlight-tags')[i]+' <div class="icon icon_close3"></div></span> ');}
+popover.data('user_highlight',elem);popover.attr('data-highlight_id',highlight_id);$('.icon_close3').off('click.remove_tag').on('click.remove_tag',function(){$tag=$(this).closest('span');$.ajax({type:'POST',url:'/reader/booktools.remove_tag/2679v/',data:{highlight_id:elem.attr('data-highlight_id'),tag:$(this).closest('span').data('tagname')||'',},dataType:'json',success:function(data,textStatus,response){tags_list=elem.data('highlight-tags');if(tags_list.indexOf(data['tagname'])>-1){tags_list.splice(tags_list.indexOf(data['tagname']),1);}
+$tag.remove()
+$.meDialog.topMessage("Tag Removed.",4000,'success');},});});$('textarea').on('input',function(){var highlight_id=$(this).closest('.popover').attr('data-highlight_id');var elems=$('.user_highlight[data-highlight_id='+highlight_id+']');var note=$('textarea').val();elems.first().data('highlight-note',note);})
+$('.save').off('click.save').on('click.save',function(){var highlight_id=$(this).closest('.popover').attr('data-highlight_id');var elems=$('.user_highlight[data-highlight_id='+highlight_id+']');var note=$('textarea').val();elems.first().data('highlight-note',note);var content_string=''
+$.each(elems,function(i){content_string+=$(this).html();});while(content_string.indexOf('$(function')!='-1'){if(content_string.indexOf('$(function')!='-1'){content_string=content_string.substring(0,content_string.indexOf('$(function'))+content_string.substring(content_string.indexOf('//ready')+7,content_string.length)}}
+elems.first().data('content_string',content_string);var tags=$(this).prev('input:text').val();var tags_list=tags.split(' ');tags_list=tags_list.concat(elems.first().data('highlight-tags'))
+for(var i=0;i<tags_list.length;i++){if(tags_list[i].charAt(0)!='#'){tags_list[i]='#'+tags_list[i];}}
+tags_list=remove_duplicates(tags_list);elems.first().data('highlight-tags',tags_list);$('.tag_container').empty()
+for(var i=0;i<tags_list.length;i++){$('.tag_container').append('<span class="tag_button" data-tagname="'+elem.data('highlight-tags')[i]+'">'+elem.data('highlight-tags')[i]+' <div class="icon icon_close3"></div></span> ');}
+$('.icon_close3').off('click.remove_tag').on('click.remove_tag',function(){$tag=$(this).closest('span');$.ajax({type:'POST',url:'/reader/booktools.remove_tag/2679v/',data:{highlight_id:elem.attr('data-highlight_id'),tag:$(this).closest('span').data('tagname')||'',},dataType:'json',success:function(data,textStatus,response){tags_list=elem.data('highlight-tags');if(tags_list.indexOf(data['tagname'])>-1){tags_list.splice(tags_list.indexOf(data['tagname']),1);}
+$tag.remove()
+$.meDialog.topMessage("Tag Removed.",4000,'success');},});});saveHighlight(elems.get(0));});$('.add-note').off('click.add_note').on('click.add_note',function(){var highlight_id=$(this).closest('.popover').attr('data-highlight_id');var elems=$('.user_highlight[data-highlight_id='+highlight_id+']');var note=$(this).prev('textarea').val();elems.first().data('highlight-note',note);var content_string=''
+$.each(elems,function(i){content_string+=$(this).html();});elems.first().data('content_string',content_string);saveHighlight(elems.get(0));});}).off('mouseleave.highlight-popover','.user_highlight').on('mouseleave.highlight-popover','.user_highlight',function(event){var elem=$(this);elem.data('mouse_inside_element',false);hidePopover(elem);});bookcontent.off('mouseenter.highlight-popover','.popover').on('mouseenter.highlight-popover','.popover',function(event){const highlight=$(this).data('user_highlight');if(highlight&&highlight.data){highlight.data('mouse_inside_popover',true);}}).off('mouseleave.highlight-popover','.popover').on('mouseleave.highlight-popover','.popover',function(event){const highlight=$(this).data('user_highlight');if(highlight&&highlight.data){highlight.data('mouse_inside_popover',false);hidePopover(highlight);}});function remove_duplicates(duplicates_array){var seen={};var out=[];var len=duplicates_array.length;var j=0;for(var i=0;i<len;i++){var item=duplicates_array[i];if(seen[item]!==1){seen[item]=1;if(item!=""&&item!="#"){out[j++]=item;}}}
+return out;}
+function hidePopover(elem){elem.powerTimer({name:'user_highlight',delay:400,func:function(){if(elem.data('mouse_inside_element')||elem.data('mouse_inside_popover')){return;}
+elem.popover('destroy');},});}
+$('#left_content').mouseenter(function(){$('.user_highlight').popover('destroy');});$('#right_content').mouseenter(function(){$('.user_highlight').popover('destroy');});var initialLoad=true
+resetHighlights(initialLoad);window.isHighlightOn=isHighlightOn
+window.setHighlightMode=setHighlightMode
+window.resetHighlights=resetHighlights})
+$(function(){function setAdvancedEditMode(state){$.jStorage.set('options_advanced_edit_mode',state)}
+window.setAdvancedEditMode=setAdvancedEditMode
+function isEditMode(){return $.jStorage.get('options_advanced_edit_mode')}
+$('#bookcontent').off('mouseenter.tools','[id]').on('mouseenter.tools','[id]',function(event){if(!isEditMode()){return}
+event.stopPropagation()
+$('#bookcontent').find('.author_tools_hover').removeClass('author_tools_hover')
+$(this).addClass('author_tools_hover')})
+$('#bookcontent').off('mouseleave.tools','[id]').on('mouseleave.tools','[id]',function(event){if(!isEditMode()){return}
+event.stopPropagation()
+$(this).removeClass('author_tools_hover')})
+$('#bookcontent').popover({html:true,placement:'bottom',trigger:'manual',content:$('#options_advanced_menu').html()})
+$('#options_advanced_menu').remove()
+var contextmenu_evt=null
+var contextmenu_elem=null
+$(document).off('contextmenu','#bookcontent').on('contextmenu','#bookcontent',function(evt){if(!isEditMode()){return}
+contextmenu_evt=evt
+contextmenu_elem=$(evt.target).closest('[id]')
+var orig_contextmenu_elem=contextmenu_elem
+if(!contextmenu_elem||contextmenu_elem.length==0){return}
+var activity_container=contextmenu_elem.closest('.activity-container')
+if(activity_container.length>0){contextmenu_elem=activity_container}
+var material_container=contextmenu_elem.closest('.material-container')
+if(material_container.length>0){contextmenu_elem=material_container}
+evt.stopPropagation()
+evt.preventDefault()
+$('#bookcontent').popover('show')
+$('#advanced_menu_edit_paragraph').toggleClass('advanced_menu_disabled',contextmenu_elem.prop('tagName')!='P'||!contextmenu_elem.hasClass('para'))
+$('#advanced_menu_edit_xml').toggleClass('advanced_menu_disabled',orig_contextmenu_elem!=contextmenu_elem)
+$('#advanced_menu_insert_image').toggleClass('advanced_menu_disabled',orig_contextmenu_elem!=contextmenu_elem)
+$('#advanced_menu_insert_activity').toggleClass('advanced_menu_disabled',orig_contextmenu_elem!=contextmenu_elem)
+$('#advanced_menu_insert_material').toggleClass('advanced_menu_disabled',orig_contextmenu_elem!=contextmenu_elem)})
+$('#bookcontent').off('shown.bs.popover').on('shown.bs.popover',function(event){if(!contextmenu_evt){return}
+var popover=$('#bookcontent').siblings('.popover')
+popover.css({top:contextmenu_evt.pageY,left:contextmenu_evt.pageX-(popover.width()/2)})})
+$('html').off('click.options_advanced_menu').on('click.options_advanced_menu',function(){$('#bookcontent').popover('hide')})
+$('#reader_content').off('click.advanced_menu','.actions_menu > li > a').on('click.advanced_menu','.actions_menu > li > a',function(evt){if($(this).hasClass('advanced_menu_disabled')){evt.preventDefault()
+return false}
+if(!contextmenu_elem||contextmenu_elem.length==0){evt.preventDefault()
+$.meDialog.message('Not Found','The given node could not be found.  Please try clicking another element.')
+return false}})
+$('#reader_content').off('click.advanced_menu','#advanced_menu_edit_paragraph').on('click.advanced_menu','#advanced_menu_edit_paragraph',function(evt){if(evt.isDefaultPrevented()){return}
+if(contextmenu_elem.prop('tagName')!='P'||!contextmenu_elem.hasClass('para')){$.meDialog.message('Paragraphs','The content editor only works on paragraphs right now.')
+return}
+$.meDialog.open2({id:'rich_editor_modal',url:'/author/tools.editor/2679v/'+contextmenu_elem.attr('id'),title:"Edit Paragraph",width:'70%'})})
+$('#reader_content').off('click.advanced_menu','#advanced_menu_edit_xml').on('click.advanced_menu','#advanced_menu_edit_xml',function(evt){if(evt.isDefaultPrevented()){return}
+$.meDialog.open2({id:'ace_editor_modal',url:'/author/tools.xml_editor/2679v/'+contextmenu_elem.attr('id'),title:"Edit Docbook",width:'90%'})})
+$('#reader_content').off('click.advanced_menu','#advanced_menu_edit_xml_section').on('click.advanced_menu','#advanced_menu_edit_xml_section',function(evt){if(evt.isDefaultPrevented()){return}
+var node=$('#'+contextmenu_elem.attr('id')).closest('.h1_sectioncontainer')
+if(node.length==0){$.meDialog.message('Edit Docbook','Cannot locate the topic-level node for this page.  You may want to try clicking a different node.')}
+$.meDialog.open2({id:'ace_editor_modal',url:'/author/tools.xml_editor/2679v/'+node.attr('data-id'),title:"Edit Docbook for Entire Section",width:'90%'})})
+$('#reader_content').off('click.advanced_menu','#advanced_menu_insert_image').on('click.advanced_menu','#advanced_menu_insert_image',function(evt){if(evt.isDefaultPrevented()){return}
+$.meDialog.open2({id:'insert_image_modal',url:'/author/tools.insert_image/2679v/'+contextmenu_elem.attr('id'),title:"Insert Image",width:'65%'})})
+$('#reader_content').off('click.advanced_menu','#advanced_menu_insert_activity').on('click.advanced_menu','#advanced_menu_insert_activity',function(evt){if(evt.isDefaultPrevented()){return}
+$.meDialog.open2({id:'insert_activity_modal',url:'/author/tools.insert_activity/2679v/'+contextmenu_elem.attr('id'),title:"Insert Assessment",width:'65%'})})
+$('#reader_content').off('click.advanced_menu','#advanced_menu_insert_material').on('click.advanced_menu','#advanced_menu_insert_material',function(evt){if(evt.isDefaultPrevented()){return}
+$.meDialog.open2({id:'insert_activity_modal',url:'/author/tools.insert_material/2679v/'+contextmenu_elem.attr('id'),title:"Insert Material",width:'65%'})})
+$('#reader_content').off('click.advanced_menu','#advanced_menu_remove_item').on('click.advanced_menu','#advanced_menu_remove_item',function(evt){if(evt.isDefaultPrevented()){return}
+$.meDialog.confirm('Remove Item','This will permanently delete the item and any nodes beneath it.  Are you sure you want to remove the item?',{'Yes':function(){var url='/author/tools.remove_item/2679v/mz5od/'+contextmenu_elem.attr('id')+'/'+(contextmenu_elem.attr('data-guid')||'')
+$.ajax({type:'POST',url:url,dataType:'script'})},'No':function(){}},400)})})</script>
+<script type="text/javascript" id="" charset="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","142088813256449");fbq("track","PageView");window.google_tag_manager[google_tag_manager["rm"]["_GTM-PQWBJ64"](14)].onHtmlSuccess(15);</script>
+
+
+<iframe id="_hjSafeContext_66866395" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/saved_resource.html" data-gtm-yt-inspected-8="true" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe>
+
+    
+        
+    
+
+
+      
+
+  
+
+<script type="module" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/index--W7HtmQ5.js"></script><script type="module" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/index-DidRJL_F.js"></script><script type="module" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/index-CNRFe3Ob.js"></script><script type="module" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/index-BFvz7j70.js"></script><script type="module" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/index-BNcOCi69.js"></script><script type="module" src="./MyEducator - HTML_ Getting Started with Basic Elements_files/index-C-xm1x8h.js"></script></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false,&quot;isAlwaysAvailableAssistantEnabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
